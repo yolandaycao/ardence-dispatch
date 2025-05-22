@@ -1,8 +1,4 @@
 import * as restify from 'restify';
-import * as dotenv from 'dotenv';
-
-// Load environment variables from .env file
-dotenv.config();
 
 // Import required bot services.
 // See https://aka.ms/bot-services to learn more about the different parts of a bot.
@@ -63,28 +59,27 @@ server.post('/api/messages', async (req, res) => {
     await adapter.process(req, res, (context) => myBot.run(context));
 });
 
-// Teams notification endpoint with Adaptive Cards
+// Teams notification endpoint
 server.post('/notify', async (req, res) => {
     try {
-        const { ticketId, assignedTo, summary, userId } = req.body;
+        const { ticketId, assignedTo, summary } = req.body;
         
         // Log the notification details
         console.log('Notification received:', {
             ticketId,
             assignedTo,
-            summary,
-            userId
+            summary
         });
         
         // Get the Teams channel ID from environment variables
-        const channelId = process.env.TEAMS_CHANNEL_ID;
+        const channelId = process.env.MicrosoftTeamsChannelId;
         if (!channelId) {
-            console.error('TEAMS_CHANNEL_ID not configured in environment variables');
+            console.error('MicrosoftTeamsChannelId not configured in environment variables');
             return res.send(500, 'Teams channel ID not configured');
         }
         
         try {
-            // Create an Adaptive Card for better formatting
+            // Create an Adaptive Card
             const cardJson = {
                 "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
                 "type": "AdaptiveCard",
@@ -97,21 +92,14 @@ server.post('/notify', async (req, res) => {
                         "text": "🎫 New Ticket Assigned"
                     },
                     {
-                        "type": "FactSet",
-                        "facts": [
-                            {
-                                "title": "Ticket ID:",
-                                "value": ticketId
-                            },
-                            {
-                                "title": "Assigned To:",
-                                "value": assignedTo
-                            },
-                            {
-                                "title": "Summary:",
-                                "value": summary
-                            }
-                        ]
+                        "type": "TextBlock",
+                        "text": `New ticket #${ticketId} has been assigned to ${assignedTo}.`,
+                        "wrap": true
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": `Summary: ${summary}`,
+                        "wrap": true
                     }
                 ],
                 "actions": [
@@ -136,27 +124,11 @@ server.post('/notify', async (req, res) => {
             };
             
             // Send the notification to Teams
-            const appId = process.env.TEAMS_BOT_APP_ID;
+            const appId = process.env.MicrosoftAppId;
             
             // Create a callback for after the conversation reference is established
             const logic = async (context) => {
-                // First message with @mention if userId is provided
-                if (userId) {
-                    await context.sendActivity({
-                        type: "message",
-                        text: `<at>${assignedTo}</at> - You have a new ticket assignment:`,
-                        entities: [{
-                            type: "mention",
-                            mentioned: {
-                                id: userId,
-                                name: assignedTo
-                            },
-                            text: `<at>${assignedTo}</at>`
-                        }]
-                    });
-                }
-                
-                // Then send the adaptive card
+                // Send the adaptive card
                 await context.sendActivity({
                     type: "message",
                     attachments: [{
@@ -183,5 +155,3 @@ server.post('/notify', async (req, res) => {
         res.send(500, 'Failed to process notification');
     }
 });
-
-

@@ -271,10 +271,6 @@ def send_teams_notification(ticket, assignment):
             "summary": ticket.get('subject', 'No subject')
         }
         
-        # Add user ID if available
-        if assignment.get('teams_mention'):
-            notification_data["userId"] = assignment['teams_mention']
-        
         # Send to Teams bot notification endpoint
         response = requests.post(
             f"{TEAMS_BOT_URL}/notify",
