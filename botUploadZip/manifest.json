@@ -1,0 +1,61 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.13",
+    "version": "1.0.0",
+    "id": "5df2c0c3-5b80-410d-8273-77238a2f828f",
+    "packageName": "com.ardence.ticketbot",
+    "developer": {
+        "name": "Ardence",
+        "websiteUrl": "https://ardencetech.com",
+        "privacyUrl": "https://ardencetech.com",
+        "termsOfUseUrl": "https://ardencetech.com"
+    },
+    "name": {
+        "short": "Ticket Bot",
+        "full": "Ticket Assignment Bot"
+    },
+    "description": {
+        "short": "Automatically assigns and notifies about new tickets",
+        "full": "Bot that automatically assigns technicians to new tickets and sends notifications with mentions in Teams"
+    },
+    "icons": {
+        "outline": "outline.png",
+        "color": "color.png"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        { 
+            "botId": "5df2c0c3-5b80-410d-8273-77238a2f828f",
+            "scopes": [
+                "team",
+                "personal",
+                "groupchat"
+            ],
+            "supportsFiles": true,
+            "isNotificationOnly": false,
+            "commandLists": [
+                {
+                    "scopes": [
+                        "team",
+                        "personal"
+                    ],
+                    "commands": [
+                        {
+                            "title": "help",
+                            "description": "Shows help information"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "582d-73-92-93-16.ngrok-free.app",
+        "token.botframework.com",
+        "*.botframework.com"
+    ]
+}

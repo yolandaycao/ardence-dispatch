@@ -1,0 +1,291 @@
+2025-05-21 16:00:13,187 - INFO - Starting Syncro ticket processor...
+2025-05-21 16:00:13,211 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:00:13,948 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-21 HTTP/1.1" 200 None
+2025-05-21 16:00:14,021 - INFO - Initial processing complete, entering main loop...
+2025-05-21 16:01:07,313 - INFO - Starting Syncro ticket processor...
+2025-05-21 16:01:07,313 - INFO - Looking for tickets created since 2025-05-14
+2025-05-21 16:01:07,318 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:01:09,376 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
+2025-05-21 16:01:09,672 - INFO - Initial processing complete, entering main loop...
+2025-05-21 16:06:07,580 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
+2025-05-21 16:06:07,581 - INFO - Looking for tickets created since 2025-05-14
+2025-05-21 16:06:07,602 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:06:10,504 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
+2025-05-21 16:11:11,589 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
+2025-05-21 16:11:11,591 - INFO - Looking for tickets created since 2025-05-14
+2025-05-21 16:11:11,612 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:11:13,407 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
+2025-05-21 16:16:14,500 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
+2025-05-21 16:16:14,502 - INFO - Looking for tickets created since 2025-05-14
+2025-05-21 16:16:14,527 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:16:16,413 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
+2025-05-21 16:21:17,451 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
+2025-05-21 16:21:17,453 - INFO - Looking for tickets created since 2025-05-14
+2025-05-21 16:21:17,473 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:21:19,767 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
+2025-05-21 16:26:20,993 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
+2025-05-21 16:26:20,995 - INFO - Looking for tickets created since 2025-05-14
+2025-05-21 16:26:21,028 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:26:22,710 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
+2025-05-21 16:31:23,857 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
+2025-05-21 16:31:23,858 - INFO - Looking for tickets created since 2025-05-14
+2025-05-21 16:31:23,876 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:31:25,716 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
+2025-05-21 16:36:26,852 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
+2025-05-21 16:36:26,854 - INFO - Looking for tickets created since 2025-05-14
+2025-05-21 16:36:26,875 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:36:28,820 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
+2025-05-21 16:41:29,886 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
+2025-05-21 16:41:29,888 - INFO - Looking for tickets created since 2025-05-14
+2025-05-21 16:41:29,942 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:41:31,831 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
+2025-05-21 16:42:39,471 - INFO - Starting Syncro ticket processor...
+2025-05-21 16:42:39,472 - INFO - Fetching all tickets...
+2025-05-21 16:42:39,478 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:42:41,414 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets HTTP/1.1" 200 None
+2025-05-21 16:42:41,723 - INFO - Initial processing complete, entering main loop...
+2025-05-21 16:43:20,382 - INFO - Starting Syncro ticket processor...
+2025-05-21 16:43:20,382 - INFO - Fetching all tickets...
+2025-05-21 16:43:20,433 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:43:20,778 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /customer_portal/api/v1/tickets HTTP/1.1" 404 34
+2025-05-21 16:43:20,780 - INFO - Initial processing complete, entering main loop...
+2025-05-21 16:44:01,228 - INFO - Starting Syncro ticket processor...
+2025-05-21 16:44:01,228 - INFO - Fetching all tickets...
+2025-05-21 16:44:01,234 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:44:03,055 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
+2025-05-21 16:44:03,275 - INFO - Initial processing complete, entering main loop...
+2025-05-21 16:44:43,884 - INFO - Starting Syncro ticket processor...
+2025-05-21 16:44:43,885 - INFO - Fetching all tickets...
+2025-05-21 16:44:43,916 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:44:45,567 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
+2025-05-21 16:44:45,845 - INFO - Initial processing complete, entering main loop...
+2025-05-21 16:51:16,205 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
+2025-05-21 16:51:16,205 - INFO - Fetching all tickets...
+2025-05-21 16:51:16,207 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:56:16,579 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
+2025-05-21 16:56:16,580 - INFO - Fetching all tickets...
+2025-05-21 16:56:16,617 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 16:56:19,544 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
+2025-05-21 17:01:20,566 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
+2025-05-21 17:01:20,567 - INFO - Fetching all tickets...
+2025-05-21 17:01:20,570 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 17:01:22,811 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
+2025-05-21 17:04:22,554 - INFO - Starting Syncro ticket processor...
+2025-05-21 17:04:22,554 - INFO - Fetching all tickets...
+2025-05-21 17:04:23,177 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 17:04:25,153 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
+2025-05-21 17:04:25,392 - INFO - Initial processing complete, entering main loop...
+2025-05-21 17:06:23,893 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
+2025-05-21 17:06:23,903 - INFO - Fetching all tickets...
+2025-05-21 17:06:23,905 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 17:06:25,883 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
+2025-05-21 17:06:48,594 - INFO - Starting Syncro ticket processor...
+2025-05-21 17:06:48,595 - INFO - Fetching all tickets...
+2025-05-21 17:06:48,600 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 17:06:50,385 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
+2025-05-21 17:06:50,576 - ERROR - Unexpected response type: <class 'dict'>
+2025-05-21 17:06:50,576 - INFO - No unassigned tickets found
+2025-05-21 17:06:50,576 - INFO - Initial processing complete, entering main loop...
+2025-05-21 17:07:52,466 - INFO - Starting Syncro ticket processor...
+2025-05-21 17:07:52,467 - INFO - Fetching all tickets...
+2025-05-21 17:07:52,473 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 17:07:54,199 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
+2025-05-21 17:07:54,512 - ERROR - Unexpected response type: <class 'dict'>
+2025-05-21 17:07:54,513 - INFO - No unassigned tickets found
+2025-05-21 17:07:54,513 - INFO - Initial processing complete, entering main loop...
+2025-05-21 17:08:40,535 - INFO - Starting Syncro ticket processor...
+2025-05-21 17:08:40,536 - INFO - Fetching all tickets...
+2025-05-21 17:08:40,541 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
+2025-05-21 17:08:42,291 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
+2025-05-21 17:08:42,573 - INFO - No unassigned tickets found
+2025-05-21 17:08:42,573 - INFO - Initial processing complete, entering main loop...
+2025-05-21 17:11:26,573 - INFO - Starting Syncro ticket processor
+2025-05-21 17:11:28,681 - INFO - Found 0 unassigned tickets
+2025-05-21 17:11:51,009 - INFO - Starting Syncro ticket processor
+2025-05-21 17:11:52,864 - INFO - Found 0 unassigned tickets
+2025-05-21 17:16:27,558 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 17:21:28,490 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 17:26:29,386 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 17:31:30,258 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 17:36:31,135 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 17:41:31,293 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 17:46:32,210 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 17:51:32,320 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 17:56:32,338 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 18:01:33,197 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 18:06:34,058 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 18:11:34,915 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 18:16:35,836 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 18:21:36,804 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 18:26:37,741 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 18:31:38,658 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 18:36:39,553 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 18:41:40,410 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 18:46:41,085 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 18:51:42,065 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 18:56:42,880 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 19:01:43,672 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 19:06:44,371 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 19:11:44,934 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 19:16:45,483 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 19:21:45,993 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 19:26:46,506 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 19:31:47,100 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 19:36:47,615 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 19:41:48,083 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 21:46:55,591 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 21:51:56,408 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 21:56:57,215 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 22:16:43,135 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 22:36:21,015 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-21 23:11:06,906 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 00:08:40,729 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 00:13:41,703 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 00:18:41,895 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 00:23:42,868 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 00:28:43,567 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 00:33:44,137 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 00:38:44,401 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 00:43:45,095 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 00:48:45,391 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 00:53:45,441 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 00:58:46,056 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 01:03:46,066 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 01:08:46,734 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 01:13:46,933 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 01:18:47,513 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 01:23:48,499 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 01:28:48,503 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 01:33:48,766 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 01:38:49,343 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 01:43:49,782 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 01:48:50,042 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 01:53:50,985 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 01:58:51,817 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 02:03:52,477 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 02:08:53,475 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 02:13:54,450 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 02:18:54,865 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 02:23:55,569 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 02:28:55,698 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 02:33:56,063 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 02:38:56,423 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 02:43:56,527 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 02:48:57,314 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 02:53:57,372 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 02:58:57,435 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 03:03:57,831 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 03:08:58,743 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 03:13:59,268 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 03:18:59,728 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 03:23:59,894 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 03:29:00,737 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 03:34:01,040 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 03:39:01,537 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 03:44:02,401 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 03:49:02,755 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 03:54:03,078 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 03:59:03,924 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 04:04:04,268 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 04:09:04,637 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 04:14:05,075 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 04:19:05,620 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 04:24:06,465 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 04:29:07,179 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 04:34:07,710 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 04:39:07,993 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 04:44:08,410 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 04:49:08,481 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 04:54:08,485 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 04:59:08,689 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 05:04:09,400 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 05:09:09,696 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 05:14:09,920 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 05:19:10,194 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 05:24:10,574 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 05:29:10,678 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 05:34:11,393 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 05:39:12,156 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 05:44:12,484 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 05:49:12,508 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 05:54:13,147 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 05:59:13,820 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 06:04:14,160 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 06:09:14,804 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 06:14:15,566 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 06:19:16,438 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 06:24:16,625 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 06:29:16,952 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 06:34:17,880 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 06:39:18,656 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 06:44:19,585 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 06:49:20,455 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 06:54:20,844 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 06:59:21,206 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 07:04:22,007 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 07:09:22,151 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 07:14:22,714 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 07:19:23,497 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 07:45:08,372 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 07:50:18,139 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 08:02:23,196 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 08:07:23,800 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 08:12:24,437 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 08:17:24,987 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 08:22:25,237 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 08:27:25,611 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 08:32:25,809 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 08:37:26,110 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 08:42:26,558 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 08:47:27,033 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 08:52:27,561 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 08:57:28,503 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 09:02:29,392 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 09:07:30,257 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 09:12:31,112 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 09:17:31,915 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 09:22:32,737 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 09:27:33,571 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 09:32:34,397 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 09:37:35,279 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 09:42:36,165 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 09:47:37,062 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 09:52:37,915 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 09:57:38,789 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 10:02:39,565 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 10:07:40,486 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 10:12:41,068 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 10:17:41,250 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 10:22:41,428 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 10:27:42,412 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 10:32:43,047 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 10:37:44,013 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 10:42:44,026 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 10:47:45,027 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 10:52:46,026 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 10:57:46,102 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 11:02:47,051 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 11:07:47,086 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 11:12:47,976 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 11:17:48,842 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 11:22:49,670 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 11:27:50,564 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 11:32:51,453 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 11:37:52,393 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 11:42:53,229 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 11:47:54,188 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 11:52:55,029 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 11:57:55,916 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 12:02:56,728 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 12:07:57,560 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 12:10:23,503 - INFO - Starting Syncro ticket processor
+2025-05-22 12:10:23,503 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 12:11:56,072 - INFO - Starting Syncro ticket processor
+2025-05-22 12:11:56,072 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 12:12:58,373 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 12:18:01,722 - INFO - Found 0 unassigned tickets
+2025-05-22 12:23:05,373 - INFO - Found 0 unassigned tickets
+2025-05-22 12:28:06,291 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 12:33:07,175 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 12:38:08,079 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 12:43:08,992 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'

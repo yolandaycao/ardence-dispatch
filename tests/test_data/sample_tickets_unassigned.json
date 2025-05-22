@@ -1,0 +1,70 @@
+{
+  "tickets": [
+    {
+      "id": 95105275,
+      "number": 15676,
+      "subject": "Cannot Access Email",
+      "created_at": "2025-05-22T12:15:00.000-07:00",
+      "customer_id": 31241166,
+      "customer_business_then_name": "ResProp Management",
+      "due_date": "2025-05-27T12:15:00.000-07:00",
+      "resolved_at": null,
+      "start_at": null,
+      "end_at": null,
+      "location_id": null,
+      "location_name": null,
+      "problem_type": "Remote Support",
+      "status": "New",
+      "ticket_type_id": 47745,
+      "ticket_type_name": "Ticket Info",
+      "properties": {
+        "Ticket Type": ""
+      },
+      "user_id": null,
+      "updated_at": "2025-05-22T12:15:00.000-07:00",
+      "pdf_url": null,
+      "priority": "2 Normal",
+      "billing_status": "Non-Billable",
+      "tag_list": [],
+      "sla_name": null,
+      "creator_name_or_email": "support@cloudavize.com",
+      "contact_fullname": "Sarah Wilson",
+      "contract_name": null,
+      "address_id": null,
+      "parent": false,
+      "child": false,
+      "recurring": false,
+      "customer_reply": false,
+      "total_formatted_billable_time": "00:00:00",
+      "contact_id": 3564062,
+      "sla_breached": false,
+      "sla_breaching_soon": false,
+      "contract_id": null,
+      "sla_id": null,
+      "customer_tag_list": [],
+      "resolution_time": null,
+      "response_time": null,
+      "comments": [
+        {
+          "id": 353493044,
+          "ticket_id": 95105275,
+          "subject": "Initial Issue",
+          "body": "User reported being unable to access Outlook after Windows update.",
+          "tech": null,
+          "created_at": "2025-05-22T12:15:00.000-07:00",
+          "updated_at": "2025-05-22T12:15:00.000-07:00",
+          "hidden": false,
+          "sms_body": "",
+          "user_id": null,
+          "ticket_automation_id": null,
+          "destination_emails": null,
+          "account_id": 43473,
+          "email_sender": null,
+          "new_sms_body": "",
+          "is_rich_text": false,
+          "display_order": null
+        }
+      ]
+    }
+  ]
+}

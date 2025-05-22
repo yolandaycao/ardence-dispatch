@@ -1,0 +1,69 @@
+{
+  "technicians": {
+    "Michael Barbin": {
+      "email": "mbarbin@cloudavize.com",
+      "teams_mention": "@mbarbin",
+      "schedules": [
+        {
+          "days": "Mon-Fri",
+          "start_time": "08:00",
+          "end_time": "17:00",
+          "categories": ["Level 1"]
+        }
+      ]
+    },
+    "Jomaree Lawsin": {
+      "email": "jlawsin@cloudavize.com",
+      "teams_mention": "@jlawsin",
+      "schedules": [
+        {
+          "days": "Mon-Fri",
+          "start_time": "08:00",
+          "end_time": "17:00",
+          "categories": ["Level 1", "Account Management"]
+        }
+      ]
+    },
+    "Carl Tamayo": {
+      "email": "ctamayo@cloudavize.com",
+      "teams_mention": "@ctamayo",
+      "schedules": [
+        {
+          "days": "Mon-Fri",
+          "start_time": "08:00",
+          "end_time": "17:00",
+          "categories": ["Level 2", "Software"]
+        }
+      ]
+    },
+    "Jorenzo Lucero": {
+      "email": "jlucero@cloudavize.com",
+      "teams_mention": "@jlucero",
+      "schedules": [
+        {
+          "days": "Sun-Thu",
+          "start_time": "16:30",
+          "end_time": "01:30",
+          "categories": ["All"]
+        }
+      ]
+    },
+    "Carl Lim": {
+      "email": "clim@cloudavize.com",
+      "teams_mention": "@clim",
+      "schedules": [
+        {
+          "days": "Fri-Mon",
+          "start_time": "08:00",
+          "end_time": "19:00",
+          "categories": ["All"]
+        }
+      ]
+    }
+  },
+  "category_mapping": {
+    "Remote Support": "Level 1",
+    "Software": "Software",
+    "Account Management": "Account Management"
+  }
+}

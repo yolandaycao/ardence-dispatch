@@ -1,0 +1,6 @@
+requests==2.31.0
+python-dotenv==1.0.0
+schedule==1.2.0
+botbuilder-core==4.14.8
+botframework-connector==4.14.8
+aiohttp==3.8.5
