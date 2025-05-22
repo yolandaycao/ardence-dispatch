@@ -2149,3 +2149,777 @@
 2025-05-22 16:05:15,300 - INFO - Starting Syncro ticket processor
 2025-05-22 16:05:17,558 - INFO - Found 31 active tickets
 2025-05-22 16:05:17,558 - INFO - Test mode: Processing most recent active ticket
+2025-05-22 16:09:47,562 - INFO - Starting Syncro ticket processor
+2025-05-22 16:09:49,737 - INFO - Found 31 active tickets
+2025-05-22 16:09:49,738 - INFO - Test mode: Processing most recent active ticket
+2025-05-22 16:10:17,413 - INFO - Found 31 active tickets
+2025-05-22 16:10:17,413 - INFO - Test mode: Processing most recent active ticket
+2025-05-22 16:10:17,416 - ERROR - Error loading processed tickets: Expecting value: line 1 column 1 (char 0)
+2025-05-22 16:10:17,579 - ERROR - Failed to send Teams notification: 500 - "Teams channel ID not configured"
+2025-05-22 16:10:17,580 - INFO - Processed ticket #15685: Assigned to Jomaree Lawsin
+2025-05-22 16:12:09,551 - INFO - Starting Syncro ticket processor
+2025-05-22 16:12:11,463 - INFO - Found 31 active tickets
+2025-05-22 16:12:11,463 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:12:11,639 - ERROR - Failed to send Teams notification: 500 - "Teams channel ID not configured"
+2025-05-22 16:12:11,639 - INFO - Processed ticket #15685: Assigned to Michael Barbin
+2025-05-22 16:12:11,759 - ERROR - Failed to send Teams notification: 500 - "Teams channel ID not configured"
+2025-05-22 16:12:11,759 - INFO - Processed ticket #15684: Assigned to Jomaree Lawsin
+2025-05-22 16:12:11,872 - ERROR - Failed to send Teams notification: 500 - "Teams channel ID not configured"
+2025-05-22 16:12:11,872 - INFO - Processed ticket #15683: Assigned to Michael Barbin
+2025-05-22 16:13:43,475 - INFO - Starting Syncro ticket processor
+2025-05-22 16:13:45,495 - INFO - Found 31 active tickets
+2025-05-22 16:13:45,495 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:14:47,947 - INFO - Starting Syncro ticket processor
+2025-05-22 16:14:49,918 - INFO - Found 31 active tickets
+2025-05-22 16:14:49,918 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:15:20,648 - INFO - Found 31 active tickets
+2025-05-22 16:15:20,648 - INFO - Test mode: Processing most recent active ticket
+2025-05-22 16:16:41,737 - INFO - Starting Syncro ticket processor
+2025-05-22 16:16:43,700 - INFO - Found 31 active tickets
+2025-05-22 16:16:43,700 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:16:43,701 - INFO - Processing ticket #15685:
+2025-05-22 16:16:43,701 - INFO -   Category: Remote Support
+2025-05-22 16:16:43,701 - INFO -   Subject: New Employees
+2025-05-22 16:16:43,701 - INFO -   Status: In Progress
+2025-05-22 16:16:43,701 - INFO - Processing ticket #15684:
+2025-05-22 16:16:43,701 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:16:43,701 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:16:43,701 - INFO -   Status: Scheduled
+2025-05-22 16:16:43,701 - INFO - Processing ticket #15683:
+2025-05-22 16:16:43,701 - INFO -   Category: Remote Support
+2025-05-22 16:16:43,701 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:16:43,701 - INFO -   Status: In Progress
+2025-05-22 16:18:06,395 - INFO - Starting Syncro ticket processor
+2025-05-22 16:18:08,294 - INFO - Found 31 active tickets
+2025-05-22 16:18:08,294 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:18:08,295 - INFO - Processing ticket #15685:
+2025-05-22 16:18:08,295 - INFO -   Category: Remote Support
+2025-05-22 16:18:08,295 - INFO -   Subject: New Employees
+2025-05-22 16:18:08,295 - INFO -   Status: In Progress
+2025-05-22 16:18:08,295 - INFO - Processing ticket #15684:
+2025-05-22 16:18:08,295 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:18:08,295 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:18:08,295 - INFO -   Status: Scheduled
+2025-05-22 16:18:08,295 - INFO - Processing ticket #15683:
+2025-05-22 16:18:08,295 - INFO -   Category: Remote Support
+2025-05-22 16:18:08,295 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:18:08,295 - INFO -   Status: In Progress
+2025-05-22 16:19:12,163 - INFO - Starting Syncro ticket processor
+2025-05-22 16:19:12,163 - INFO - Loading technician mapping from technician_mapping.json
+2025-05-22 16:19:12,163 - INFO - Loaded 5 technicians
+2025-05-22 16:19:12,163 - INFO - Processing schedules for Michael Barbin
+2025-05-22 16:19:12,163 - INFO - Processing schedules for Jomaree Lawsin
+2025-05-22 16:19:12,163 - INFO - Processing schedules for Carl Tamayo
+2025-05-22 16:19:12,163 - INFO - Processing schedules for Jorenzo Lucero
+2025-05-22 16:19:12,163 - INFO - Processing schedules for Carl Lim
+2025-05-22 16:19:14,093 - INFO - Found 31 active tickets
+2025-05-22 16:19:14,093 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:19:14,093 - INFO - Processing ticket #15685:
+2025-05-22 16:19:14,093 - INFO -   Category: Remote Support
+2025-05-22 16:19:14,093 - INFO -   Subject: New Employees
+2025-05-22 16:19:14,093 - INFO -   Status: In Progress
+2025-05-22 16:19:14,093 - INFO - Processing ticket #15684:
+2025-05-22 16:19:14,093 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:19:14,093 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:19:14,093 - INFO -   Status: Scheduled
+2025-05-22 16:19:14,093 - INFO - Processing ticket #15683:
+2025-05-22 16:19:14,093 - INFO -   Category: Remote Support
+2025-05-22 16:19:14,093 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:19:14,093 - INFO -   Status: In Progress
+2025-05-22 16:20:23,737 - INFO - Found 31 active tickets
+2025-05-22 16:20:23,738 - INFO - Test mode: Processing most recent active ticket
+2025-05-22 16:20:41,787 - INFO - Starting Syncro ticket processor
+2025-05-22 16:20:41,787 - INFO - Loading technician mapping from technician_mapping.json
+2025-05-22 16:20:41,787 - INFO - Loaded 5 technicians
+2025-05-22 16:20:41,787 - INFO - Processing schedules for Michael Barbin
+2025-05-22 16:20:41,787 - INFO - Processing schedules for Jomaree Lawsin
+2025-05-22 16:20:41,787 - INFO - Processing schedules for Carl Tamayo
+2025-05-22 16:20:41,787 - INFO - Processing schedules for Jorenzo Lucero
+2025-05-22 16:20:41,787 - INFO - Processing schedules for Carl Lim
+2025-05-22 16:20:43,816 - INFO - Found 31 active tickets
+2025-05-22 16:20:43,816 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:20:43,817 - INFO - Processing ticket #15685:
+2025-05-22 16:20:43,817 - INFO -   Category: Remote Support
+2025-05-22 16:20:43,817 - INFO -   Subject: New Employees
+2025-05-22 16:20:43,817 - INFO -   Status: In Progress
+2025-05-22 16:20:43,817 - INFO - Processing ticket #15684:
+2025-05-22 16:20:43,817 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:20:43,817 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:20:43,817 - INFO -   Status: Scheduled
+2025-05-22 16:20:43,817 - INFO - Processing ticket #15683:
+2025-05-22 16:20:43,817 - INFO -   Category: Remote Support
+2025-05-22 16:20:43,817 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:20:43,817 - INFO -   Status: In Progress
+2025-05-22 16:22:58,746 - INFO - Starting Syncro ticket processor
+2025-05-22 16:22:58,746 - INFO - Loading technician mapping from technician_mapping.json
+2025-05-22 16:22:58,747 - INFO - Loaded 5 technicians
+2025-05-22 16:22:58,747 - INFO - Processing schedules for Michael Barbin
+2025-05-22 16:22:58,747 - INFO - Processing schedules for Jomaree Lawsin
+2025-05-22 16:22:58,747 - INFO - Processing schedules for Carl Tamayo
+2025-05-22 16:22:58,747 - INFO - Processing schedules for Jorenzo Lucero
+2025-05-22 16:22:58,747 - INFO - Processing schedules for Carl Lim
+2025-05-22 16:23:00,689 - INFO - Found 31 active tickets
+2025-05-22 16:23:00,689 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:23:00,689 - INFO - Processing ticket #15685:
+2025-05-22 16:23:00,689 - INFO -   Category: Remote Support
+2025-05-22 16:23:00,689 - INFO -   Subject: New Employees
+2025-05-22 16:23:00,689 - INFO -   Status: In Progress
+2025-05-22 16:23:00,689 - INFO - Processing ticket #15684:
+2025-05-22 16:23:00,689 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:23:00,689 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:23:00,689 - INFO -   Status: Scheduled
+2025-05-22 16:23:00,689 - INFO - Processing ticket #15683:
+2025-05-22 16:23:00,689 - INFO -   Category: Remote Support
+2025-05-22 16:23:00,689 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:23:00,689 - INFO -   Status: In Progress
+2025-05-22 16:23:43,027 - INFO - Starting Syncro ticket processor
+2025-05-22 16:23:43,027 - INFO - Starting to process tickets...
+2025-05-22 16:23:43,027 - INFO - Loading technician mapping from technician_mapping.json
+2025-05-22 16:23:43,027 - INFO - Loaded 5 technicians
+2025-05-22 16:23:43,027 - INFO - Processing schedules for Michael Barbin
+2025-05-22 16:23:43,027 - INFO - Processing schedules for Jomaree Lawsin
+2025-05-22 16:23:43,027 - INFO - Processing schedules for Carl Tamayo
+2025-05-22 16:23:43,027 - INFO - Processing schedules for Jorenzo Lucero
+2025-05-22 16:23:43,027 - INFO - Processing schedules for Carl Lim
+2025-05-22 16:23:44,956 - INFO - Found 31 active tickets
+2025-05-22 16:23:44,956 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:23:44,956 - INFO - Processing ticket #15685:
+2025-05-22 16:23:44,956 - INFO -   Category: Remote Support
+2025-05-22 16:23:44,956 - INFO -   Subject: New Employees
+2025-05-22 16:23:44,956 - INFO -   Status: In Progress
+2025-05-22 16:23:44,956 - INFO - Processing ticket #15684:
+2025-05-22 16:23:44,956 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:23:44,956 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:23:44,957 - INFO -   Status: Scheduled
+2025-05-22 16:23:44,957 - INFO - Processing ticket #15683:
+2025-05-22 16:23:44,957 - INFO -   Category: Remote Support
+2025-05-22 16:23:44,957 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:23:44,957 - INFO -   Status: In Progress
+2025-05-22 16:23:44,957 - INFO - Starting to process each ticket...
+2025-05-22 16:23:44,957 - INFO - Skipping already processed ticket #15685
+2025-05-22 16:23:44,957 - INFO - Skipping already processed ticket #15684
+2025-05-22 16:23:44,957 - INFO - Skipping already processed ticket #15683
+2025-05-22 16:24:14,500 - INFO - Starting Syncro ticket processor
+2025-05-22 16:24:14,500 - INFO - Starting to process tickets...
+2025-05-22 16:24:14,500 - INFO - Loading technician mapping from technician_mapping.json
+2025-05-22 16:24:14,500 - INFO - Loaded 5 technicians
+2025-05-22 16:24:14,500 - INFO - Processing schedules for Michael Barbin
+2025-05-22 16:24:14,500 - INFO - Processing schedules for Jomaree Lawsin
+2025-05-22 16:24:14,500 - INFO - Processing schedules for Carl Tamayo
+2025-05-22 16:24:14,500 - INFO - Processing schedules for Jorenzo Lucero
+2025-05-22 16:24:14,500 - INFO - Processing schedules for Carl Lim
+2025-05-22 16:24:16,297 - INFO - Found 31 active tickets
+2025-05-22 16:24:16,298 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:24:16,298 - INFO - Processing ticket #15685:
+2025-05-22 16:24:16,298 - INFO -   Category: Remote Support
+2025-05-22 16:24:16,298 - INFO -   Subject: New Employees
+2025-05-22 16:24:16,299 - INFO -   Status: In Progress
+2025-05-22 16:24:16,299 - INFO - Processing ticket #15684:
+2025-05-22 16:24:16,299 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:24:16,299 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:24:16,299 - INFO -   Status: Scheduled
+2025-05-22 16:24:16,299 - INFO - Processing ticket #15683:
+2025-05-22 16:24:16,299 - INFO -   Category: Remote Support
+2025-05-22 16:24:16,299 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:24:16,299 - INFO -   Status: In Progress
+2025-05-22 16:24:16,300 - INFO - Starting to process each ticket...
+2025-05-22 16:24:16,300 - INFO - Processing new ticket #15685
+2025-05-22 16:24:16,300 - INFO - Starting assignment for ticket #15685
+2025-05-22 16:24:16,300 - INFO - Raw ticket category: Remote Support
+2025-05-22 16:24:16,300 - INFO - Mapping Syncro category: Remote Support
+2025-05-22 16:24:16,301 - INFO - Normalized category: remote support
+2025-05-22 16:24:16,301 - INFO - Mapped category: Level 1
+2025-05-22 16:24:16,301 - INFO - Finding available technicians for category: Level 1
+2025-05-22 16:24:16,301 - INFO - Checking technician schedules...
+2025-05-22 16:24:16,301 - INFO - Checking availability for Michael Barbin
+2025-05-22 16:24:16,301 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,301 - INFO - Checking availability for Jomaree Lawsin
+2025-05-22 16:24:16,301 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,301 - INFO - Checking availability for Carl Tamayo
+2025-05-22 16:24:16,301 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,301 - INFO - Checking availability for Jorenzo Lucero
+2025-05-22 16:24:16,301 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,301 - INFO - Checking availability for Carl Lim
+2025-05-22 16:24:16,301 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,302 - INFO - TEST_MODE is False
+2025-05-22 16:24:16,302 - INFO - Valid technician assigned: Jomaree Lawsin
+2025-05-22 16:24:16,302 - INFO - Sending Teams notification for ticket #15685 to Jomaree Lawsin
+2025-05-22 16:24:16,302 - INFO - Sending Teams notification to https://3232-73-92-93-16.ngrok-free.app/notify
+2025-05-22 16:24:16,302 - INFO - Notification data: {'ticketId': 15685, 'assignedTo': 'Jomaree Lawsin', 'summary': 'New Employees'}
+2025-05-22 16:24:16,540 - INFO - Teams notification response: 500 - "Teams channel ID not configured"
+2025-05-22 16:24:16,541 - ERROR - Failed to send Teams notification: 500 - "Teams channel ID not configured"
+2025-05-22 16:24:16,541 - INFO - Processed ticket #15685: Assigned to Jomaree Lawsin
+2025-05-22 16:24:16,541 - INFO - Processing new ticket #15684
+2025-05-22 16:24:16,541 - INFO - Starting assignment for ticket #15684
+2025-05-22 16:24:16,541 - INFO - Raw ticket category: Monitors & Alerts
+2025-05-22 16:24:16,541 - INFO - Mapping Syncro category: Monitors & Alerts
+2025-05-22 16:24:16,541 - INFO - Normalized category: monitors & alerts
+2025-05-22 16:24:16,541 - INFO - Mapped category: Level 1
+2025-05-22 16:24:16,541 - INFO - Finding available technicians for category: Level 1
+2025-05-22 16:24:16,541 - INFO - Checking technician schedules...
+2025-05-22 16:24:16,541 - INFO - Checking availability for Michael Barbin
+2025-05-22 16:24:16,541 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,541 - INFO - Checking availability for Jomaree Lawsin
+2025-05-22 16:24:16,541 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,541 - INFO - Checking availability for Carl Tamayo
+2025-05-22 16:24:16,541 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,541 - INFO - Checking availability for Jorenzo Lucero
+2025-05-22 16:24:16,541 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,541 - INFO - Checking availability for Carl Lim
+2025-05-22 16:24:16,541 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,542 - INFO - TEST_MODE is False
+2025-05-22 16:24:16,542 - INFO - Valid technician assigned: Michael Barbin
+2025-05-22 16:24:16,542 - INFO - Sending Teams notification for ticket #15684 to Michael Barbin
+2025-05-22 16:24:16,542 - INFO - Sending Teams notification to https://3232-73-92-93-16.ngrok-free.app/notify
+2025-05-22 16:24:16,542 - INFO - Notification data: {'ticketId': 15684, 'assignedTo': 'Michael Barbin', 'summary': '[Automated] Asset Offline - MGMT-CLICKENG'}
+2025-05-22 16:24:16,653 - INFO - Teams notification response: 500 - "Teams channel ID not configured"
+2025-05-22 16:24:16,653 - ERROR - Failed to send Teams notification: 500 - "Teams channel ID not configured"
+2025-05-22 16:24:16,653 - INFO - Processed ticket #15684: Assigned to Michael Barbin
+2025-05-22 16:24:16,653 - INFO - Processing new ticket #15683
+2025-05-22 16:24:16,653 - INFO - Starting assignment for ticket #15683
+2025-05-22 16:24:16,653 - INFO - Raw ticket category: Remote Support
+2025-05-22 16:24:16,653 - INFO - Mapping Syncro category: Remote Support
+2025-05-22 16:24:16,653 - INFO - Normalized category: remote support
+2025-05-22 16:24:16,653 - INFO - Mapped category: Level 1
+2025-05-22 16:24:16,653 - INFO - Finding available technicians for category: Level 1
+2025-05-22 16:24:16,653 - INFO - Checking technician schedules...
+2025-05-22 16:24:16,654 - INFO - Checking availability for Michael Barbin
+2025-05-22 16:24:16,654 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,654 - INFO - Checking availability for Jomaree Lawsin
+2025-05-22 16:24:16,654 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,654 - INFO - Checking availability for Carl Tamayo
+2025-05-22 16:24:16,654 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,654 - INFO - Checking availability for Jorenzo Lucero
+2025-05-22 16:24:16,654 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,654 - INFO - Checking availability for Carl Lim
+2025-05-22 16:24:16,654 - INFO - Current time: 16:24, Current day: Thu
+2025-05-22 16:24:16,654 - INFO - TEST_MODE is False
+2025-05-22 16:24:16,654 - INFO - Valid technician assigned: Jomaree Lawsin
+2025-05-22 16:24:16,654 - INFO - Sending Teams notification for ticket #15683 to Jomaree Lawsin
+2025-05-22 16:24:16,654 - INFO - Sending Teams notification to https://3232-73-92-93-16.ngrok-free.app/notify
+2025-05-22 16:24:16,654 - INFO - Notification data: {'ticketId': 15683, 'assignedTo': 'Jomaree Lawsin', 'summary': 'Teams | Artizin'}
+2025-05-22 16:24:16,781 - INFO - Teams notification response: 500 - "Teams channel ID not configured"
+2025-05-22 16:24:16,781 - ERROR - Failed to send Teams notification: 500 - "Teams channel ID not configured"
+2025-05-22 16:24:16,781 - INFO - Processed ticket #15683: Assigned to Jomaree Lawsin
+2025-05-22 16:25:26,600 - INFO - Found 31 active tickets
+2025-05-22 16:25:26,601 - INFO - Test mode: Processing most recent active ticket
+2025-05-22 16:26:02,078 - INFO - Starting Syncro ticket processor
+2025-05-22 16:26:02,078 - INFO - Starting to process tickets...
+2025-05-22 16:26:02,078 - INFO - Loading technician mapping from technician_mapping.json
+2025-05-22 16:26:02,079 - INFO - Loaded 5 technicians
+2025-05-22 16:26:02,079 - INFO - Processing schedules for Michael Barbin
+2025-05-22 16:26:02,079 - INFO - Processing schedules for Jomaree Lawsin
+2025-05-22 16:26:02,079 - INFO - Processing schedules for Carl Tamayo
+2025-05-22 16:26:02,079 - INFO - Processing schedules for Jorenzo Lucero
+2025-05-22 16:26:02,079 - INFO - Processing schedules for Carl Lim
+2025-05-22 16:26:04,166 - INFO - Found 31 active tickets
+2025-05-22 16:26:04,169 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:26:04,224 - INFO - Processing ticket #15685:
+2025-05-22 16:26:04,225 - INFO -   Category: Remote Support
+2025-05-22 16:26:04,225 - INFO -   Subject: New Employees
+2025-05-22 16:26:04,225 - INFO -   Status: In Progress
+2025-05-22 16:26:04,225 - INFO - Processing ticket #15684:
+2025-05-22 16:26:04,225 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:26:04,225 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:26:04,225 - INFO -   Status: Scheduled
+2025-05-22 16:26:04,225 - INFO - Processing ticket #15683:
+2025-05-22 16:26:04,225 - INFO -   Category: Remote Support
+2025-05-22 16:26:04,225 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:26:04,225 - INFO -   Status: In Progress
+2025-05-22 16:26:04,227 - INFO - Starting to process each ticket...
+2025-05-22 16:26:04,228 - INFO - Skipping already processed ticket #15685
+2025-05-22 16:26:04,229 - INFO - Skipping already processed ticket #15684
+2025-05-22 16:26:04,229 - INFO - Skipping already processed ticket #15683
+2025-05-22 16:43:33,611 - INFO - Starting to process tickets...
+2025-05-22 16:43:33,613 - INFO - Loading technician mapping from technician_mapping.json
+2025-05-22 16:43:33,614 - INFO - Loaded 5 technicians
+2025-05-22 16:43:33,614 - INFO - Processing schedules for Michael Barbin
+2025-05-22 16:43:33,614 - INFO - Processing schedules for Jomaree Lawsin
+2025-05-22 16:43:33,614 - INFO - Processing schedules for Carl Tamayo
+2025-05-22 16:43:33,614 - INFO - Processing schedules for Jorenzo Lucero
+2025-05-22 16:43:33,614 - INFO - Processing schedules for Carl Lim
+2025-05-22 16:43:33,626 - ERROR - Failed to get tickets: HTTPSConnectionPool(host='cloudavize.syncromsp.com', port=443): Max retries exceeded with url: /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1066f9f90>: Failed to resolve 'cloudavize.syncromsp.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-05-22 16:43:33,626 - INFO - No new tickets to process
+2025-05-22 16:43:34,212 - ERROR - Failed to get tickets: HTTPSConnectionPool(host='cloudavize.syncromsp.com', port=443): Max retries exceeded with url: /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x105c0ed90>: Failed to resolve 'cloudavize.syncromsp.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-05-22 16:43:34,212 - INFO - No new tickets to process
+2025-05-22 16:48:34,520 - INFO - Starting to process tickets...
+2025-05-22 16:48:34,522 - INFO - Loading technician mapping from technician_mapping.json
+2025-05-22 16:48:34,523 - INFO - Loaded 5 technicians
+2025-05-22 16:48:34,523 - INFO - Processing schedules for Michael Barbin
+2025-05-22 16:48:34,523 - INFO - Processing schedules for Jomaree Lawsin
+2025-05-22 16:48:34,523 - INFO - Processing schedules for Carl Tamayo
+2025-05-22 16:48:34,523 - INFO - Processing schedules for Jorenzo Lucero
+2025-05-22 16:48:34,523 - INFO - Processing schedules for Carl Lim
+2025-05-22 16:48:36,612 - INFO - Found 31 active tickets
+2025-05-22 16:48:36,612 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:48:36,612 - INFO - Processing ticket #15685:
+2025-05-22 16:48:36,612 - INFO -   Category: Remote Support
+2025-05-22 16:48:36,612 - INFO -   Subject: New Employees
+2025-05-22 16:48:36,612 - INFO -   Status: In Progress
+2025-05-22 16:48:36,612 - INFO - Processing ticket #15684:
+2025-05-22 16:48:36,612 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:48:36,612 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:48:36,612 - INFO -   Status: Scheduled
+2025-05-22 16:48:36,612 - INFO - Processing ticket #15683:
+2025-05-22 16:48:36,612 - INFO -   Category: Remote Support
+2025-05-22 16:48:36,612 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:48:36,612 - INFO -   Status: In Progress
+2025-05-22 16:48:36,613 - INFO - Starting to process each ticket...
+2025-05-22 16:48:36,613 - INFO - Skipping already processed ticket #15685
+2025-05-22 16:48:36,613 - INFO - Skipping already processed ticket #15684
+2025-05-22 16:48:36,613 - INFO - Skipping already processed ticket #15683
+2025-05-22 16:48:37,036 - INFO - Found 31 active tickets
+2025-05-22 16:48:37,037 - INFO - Test mode: Processing most recent active ticket
+2025-05-22 16:48:53,531 - INFO - Starting Syncro ticket processor
+2025-05-22 16:48:53,531 - INFO - Starting to process tickets...
+2025-05-22 16:48:53,531 - INFO - Loading technician mapping from technician_mapping.json
+2025-05-22 16:48:53,531 - INFO - Loaded 5 technicians
+2025-05-22 16:48:53,531 - INFO - Processing schedules for Michael Barbin
+2025-05-22 16:48:53,531 - INFO - Processing schedules for Jomaree Lawsin
+2025-05-22 16:48:53,531 - INFO - Processing schedules for Carl Tamayo
+2025-05-22 16:48:53,531 - INFO - Processing schedules for Jorenzo Lucero
+2025-05-22 16:48:53,531 - INFO - Processing schedules for Carl Lim
+2025-05-22 16:48:55,500 - INFO - Found 31 active tickets
+2025-05-22 16:48:55,500 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:48:55,501 - INFO - Processing ticket #15685:
+2025-05-22 16:48:55,501 - INFO -   Category: Remote Support
+2025-05-22 16:48:55,501 - INFO -   Subject: New Employees
+2025-05-22 16:48:55,501 - INFO -   Status: In Progress
+2025-05-22 16:48:55,501 - INFO - Processing ticket #15684:
+2025-05-22 16:48:55,501 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:48:55,501 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:48:55,501 - INFO -   Status: Scheduled
+2025-05-22 16:48:55,501 - INFO - Processing ticket #15683:
+2025-05-22 16:48:55,501 - INFO -   Category: Remote Support
+2025-05-22 16:48:55,501 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:48:55,502 - INFO -   Status: In Progress
+2025-05-22 16:48:55,503 - INFO - Starting to process each ticket...
+2025-05-22 16:48:55,503 - INFO - Skipping already processed ticket #15685
+2025-05-22 16:48:55,503 - INFO - Skipping already processed ticket #15684
+2025-05-22 16:48:55,503 - INFO - Skipping already processed ticket #15683
+2025-05-22 16:51:55,476 - INFO - Starting Syncro ticket processor
+2025-05-22 16:51:55,477 - INFO - Starting to process tickets...
+2025-05-22 16:51:55,477 - INFO - Loading technician mapping from technician_mapping.json
+2025-05-22 16:51:55,477 - INFO - Loaded 5 technicians
+2025-05-22 16:51:55,477 - INFO - Processing schedules for Michael Barbin
+2025-05-22 16:51:55,477 - INFO - Processing schedules for Jomaree Lawsin
+2025-05-22 16:51:55,477 - INFO - Processing schedules for Carl Tamayo
+2025-05-22 16:51:55,477 - INFO - Processing schedules for Jorenzo Lucero
+2025-05-22 16:51:55,477 - INFO - Processing schedules for Carl Lim
+2025-05-22 16:51:57,439 - INFO - Found 31 active tickets
+2025-05-22 16:51:57,439 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:51:57,439 - INFO - Processing ticket #15685:
+2025-05-22 16:51:57,439 - INFO -   Category: Remote Support
+2025-05-22 16:51:57,439 - INFO -   Subject: New Employees
+2025-05-22 16:51:57,439 - INFO -   Status: In Progress
+2025-05-22 16:51:57,439 - INFO - Processing ticket #15684:
+2025-05-22 16:51:57,439 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:51:57,439 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:51:57,439 - INFO -   Status: Scheduled
+2025-05-22 16:51:57,440 - INFO - Processing ticket #15683:
+2025-05-22 16:51:57,440 - INFO -   Category: Remote Support
+2025-05-22 16:51:57,440 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:51:57,440 - INFO -   Status: In Progress
+2025-05-22 16:51:57,441 - INFO - Starting to process each ticket...
+2025-05-22 16:51:57,441 - INFO - Skipping already processed ticket #15685
+2025-05-22 16:51:57,441 - INFO - Skipping already processed ticket #15684
+2025-05-22 16:51:57,441 - INFO - Skipping already processed ticket #15683
+2025-05-22 16:52:12,016 - INFO - Starting Syncro ticket processor
+2025-05-22 16:52:12,017 - INFO - Starting to process tickets...
+2025-05-22 16:52:12,017 - INFO - Loading technician mapping from technician_mapping.json
+2025-05-22 16:52:12,017 - INFO - Loaded 5 technicians
+2025-05-22 16:52:12,017 - INFO - Processing schedules for Michael Barbin
+2025-05-22 16:52:12,017 - INFO - Processing schedules for Jomaree Lawsin
+2025-05-22 16:52:12,017 - INFO - Processing schedules for Carl Tamayo
+2025-05-22 16:52:12,017 - INFO - Processing schedules for Jorenzo Lucero
+2025-05-22 16:52:12,017 - INFO - Processing schedules for Carl Lim
+2025-05-22 16:52:13,995 - INFO - Found 31 active tickets
+2025-05-22 16:52:13,995 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:52:13,996 - INFO - Processing ticket #15685:
+2025-05-22 16:52:13,996 - INFO -   Category: Remote Support
+2025-05-22 16:52:13,996 - INFO -   Subject: New Employees
+2025-05-22 16:52:13,996 - INFO -   Status: In Progress
+2025-05-22 16:52:13,996 - INFO - Processing ticket #15684:
+2025-05-22 16:52:13,996 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:52:13,996 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:52:13,996 - INFO -   Status: Scheduled
+2025-05-22 16:52:13,996 - INFO - Processing ticket #15683:
+2025-05-22 16:52:13,997 - INFO -   Category: Remote Support
+2025-05-22 16:52:13,997 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:52:13,997 - INFO -   Status: In Progress
+2025-05-22 16:52:13,997 - ERROR - Error loading processed tickets: Expecting value: line 1 column 1 (char 0)
+2025-05-22 16:52:13,997 - INFO - Starting to process each ticket...
+2025-05-22 16:52:13,997 - INFO - Processing new ticket #15685
+2025-05-22 16:52:13,997 - INFO - Starting assignment for ticket #15685
+2025-05-22 16:52:13,997 - INFO - Raw ticket category: Remote Support
+2025-05-22 16:52:13,997 - INFO - Mapping Syncro category: Remote Support
+2025-05-22 16:52:13,997 - INFO - Normalized category: remote support
+2025-05-22 16:52:13,997 - INFO - Mapped category: Level 1
+2025-05-22 16:52:13,997 - INFO - Finding available technicians for category: Level 1
+2025-05-22 16:52:13,997 - INFO - Checking technician schedules...
+2025-05-22 16:52:13,997 - INFO - Checking availability for Michael Barbin
+2025-05-22 16:52:13,998 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:13,998 - INFO - Checking availability for Jomaree Lawsin
+2025-05-22 16:52:13,998 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:13,998 - INFO - Checking availability for Carl Tamayo
+2025-05-22 16:52:13,998 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:13,998 - INFO - Checking availability for Jorenzo Lucero
+2025-05-22 16:52:13,998 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:13,998 - INFO - Checking availability for Carl Lim
+2025-05-22 16:52:13,998 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:13,998 - INFO - TEST_MODE is False
+2025-05-22 16:52:13,998 - INFO - Valid technician assigned: Michael Barbin
+2025-05-22 16:52:13,999 - INFO - Sending Teams notification for ticket #15685 to Michael Barbin
+2025-05-22 16:52:13,999 - INFO - Using Teams channel ID: 19:a0b94845e5b94ee29d7278c860e82e1f@thread.tacv2
+2025-05-22 16:52:13,999 - INFO - Sending Teams notification to https://3232-73-92-93-16.ngrok-free.app/notify
+2025-05-22 16:52:13,999 - INFO - Notification data: {'ticketId': 15685, 'assignedTo': 'Michael Barbin', 'summary': 'New Employees'}
+2025-05-22 16:52:14,105 - INFO - Teams notification response: 500 - "Teams channel ID not configured"
+2025-05-22 16:52:14,105 - ERROR - Failed to send Teams notification: 500 - "Teams channel ID not configured"
+2025-05-22 16:52:14,106 - INFO - Processed ticket #15685: Assigned to Michael Barbin
+2025-05-22 16:52:14,106 - INFO - Processing new ticket #15684
+2025-05-22 16:52:14,106 - INFO - Starting assignment for ticket #15684
+2025-05-22 16:52:14,106 - INFO - Raw ticket category: Monitors & Alerts
+2025-05-22 16:52:14,106 - INFO - Mapping Syncro category: Monitors & Alerts
+2025-05-22 16:52:14,106 - INFO - Normalized category: monitors & alerts
+2025-05-22 16:52:14,106 - INFO - Mapped category: Level 1
+2025-05-22 16:52:14,106 - INFO - Finding available technicians for category: Level 1
+2025-05-22 16:52:14,106 - INFO - Checking technician schedules...
+2025-05-22 16:52:14,106 - INFO - Checking availability for Michael Barbin
+2025-05-22 16:52:14,106 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:14,106 - INFO - Checking availability for Jomaree Lawsin
+2025-05-22 16:52:14,106 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:14,107 - INFO - Checking availability for Carl Tamayo
+2025-05-22 16:52:14,107 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:14,107 - INFO - Checking availability for Jorenzo Lucero
+2025-05-22 16:52:14,107 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:14,107 - INFO - Checking availability for Carl Lim
+2025-05-22 16:52:14,107 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:14,107 - INFO - TEST_MODE is False
+2025-05-22 16:52:14,107 - INFO - Valid technician assigned: Jomaree Lawsin
+2025-05-22 16:52:14,107 - INFO - Sending Teams notification for ticket #15684 to Jomaree Lawsin
+2025-05-22 16:52:14,107 - INFO - Using Teams channel ID: 19:a0b94845e5b94ee29d7278c860e82e1f@thread.tacv2
+2025-05-22 16:52:14,107 - INFO - Sending Teams notification to https://3232-73-92-93-16.ngrok-free.app/notify
+2025-05-22 16:52:14,107 - INFO - Notification data: {'ticketId': 15684, 'assignedTo': 'Jomaree Lawsin', 'summary': '[Automated] Asset Offline - MGMT-CLICKENG'}
+2025-05-22 16:52:14,195 - INFO - Teams notification response: 500 - "Teams channel ID not configured"
+2025-05-22 16:52:14,195 - ERROR - Failed to send Teams notification: 500 - "Teams channel ID not configured"
+2025-05-22 16:52:14,195 - INFO - Processed ticket #15684: Assigned to Jomaree Lawsin
+2025-05-22 16:52:14,195 - INFO - Processing new ticket #15683
+2025-05-22 16:52:14,195 - INFO - Starting assignment for ticket #15683
+2025-05-22 16:52:14,195 - INFO - Raw ticket category: Remote Support
+2025-05-22 16:52:14,195 - INFO - Mapping Syncro category: Remote Support
+2025-05-22 16:52:14,195 - INFO - Normalized category: remote support
+2025-05-22 16:52:14,195 - INFO - Mapped category: Level 1
+2025-05-22 16:52:14,195 - INFO - Finding available technicians for category: Level 1
+2025-05-22 16:52:14,195 - INFO - Checking technician schedules...
+2025-05-22 16:52:14,195 - INFO - Checking availability for Michael Barbin
+2025-05-22 16:52:14,195 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:14,195 - INFO - Checking availability for Jomaree Lawsin
+2025-05-22 16:52:14,195 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:14,195 - INFO - Checking availability for Carl Tamayo
+2025-05-22 16:52:14,195 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:14,195 - INFO - Checking availability for Jorenzo Lucero
+2025-05-22 16:52:14,195 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:14,196 - INFO - Checking availability for Carl Lim
+2025-05-22 16:52:14,196 - INFO - Current time: 16:52, Current day: Thu
+2025-05-22 16:52:14,196 - INFO - TEST_MODE is False
+2025-05-22 16:52:14,196 - INFO - Valid technician assigned: Michael Barbin
+2025-05-22 16:52:14,196 - INFO - Sending Teams notification for ticket #15683 to Michael Barbin
+2025-05-22 16:52:14,196 - INFO - Using Teams channel ID: 19:a0b94845e5b94ee29d7278c860e82e1f@thread.tacv2
+2025-05-22 16:52:14,196 - INFO - Sending Teams notification to https://3232-73-92-93-16.ngrok-free.app/notify
+2025-05-22 16:52:14,196 - INFO - Notification data: {'ticketId': 15683, 'assignedTo': 'Michael Barbin', 'summary': 'Teams | Artizin'}
+2025-05-22 16:52:14,400 - INFO - Teams notification response: 400 - <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-RegularItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Medium-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Semibold-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-MediumItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-Text.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-TextItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBold.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBoldItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <meta charset="utf-8">
+    <meta name="author" content="ngrok">
+    <meta name="description" content="ngrok is the fastest way to put anything on the internet with a single command.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="style" rel="stylesheet" href="https://cdn.ngrok.com/static/css/error.css">
+    <noscript>Traffic was successfully tunneled to the ngrok agent, but the agent failed to establish a connection to the upstream web service at localhost:3978. (ERR_NGROK_8012)</noscript>
+    <script id="script" src="https://cdn.ngrok.com/static/js/error.js" type="text/javascript"></script>
+  </head>
+  <body class="h-full" id="ngrok">
+    <div id="root" data-payload="eyJhZGRyIjoibG9jYWxob3N0OjM5NzgiLCJjZG5CYXNlIjoiaHR0cHM6Ly9jZG4ubmdyb2suY29tLyIsImNvZGUiOiI4MDEyIiwiZXJyb3JUZXh0IjoiZGlhbCB0Y3AgWzo6MV06Mzk3ODogY29ubmVjdDogY29ubmVjdGlvbiByZWZ1c2VkIiwibWVzc2FnZSI6IlRyYWZmaWMgd2FzIHN1Y2Nlc3NmdWxseSB0dW5uZWxlZCB0byB0aGUgbmdyb2sgYWdlbnQsIGJ1dCB0aGUgYWdlbnQgZmFpbGVkIHRvIGVzdGFibGlzaCBhIGNvbm5lY3Rpb24gdG8gdGhlIHVwc3RyZWFtIHdlYiBzZXJ2aWNlIGF0IGxvY2FsaG9zdDozOTc4LiIsInNjaGVtZSI6Imh0dHAiLCJ0aXRsZSI6IkJhZCBSZXF1ZXN0In0="></div>
+  </body>
+</html>
+
+2025-05-22 16:52:14,401 - ERROR - Failed to send Teams notification: 400 - <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-RegularItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Medium-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Semibold-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-MediumItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-Text.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-TextItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBold.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBoldItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <meta charset="utf-8">
+    <meta name="author" content="ngrok">
+    <meta name="description" content="ngrok is the fastest way to put anything on the internet with a single command.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="style" rel="stylesheet" href="https://cdn.ngrok.com/static/css/error.css">
+    <noscript>Traffic was successfully tunneled to the ngrok agent, but the agent failed to establish a connection to the upstream web service at localhost:3978. (ERR_NGROK_8012)</noscript>
+    <script id="script" src="https://cdn.ngrok.com/static/js/error.js" type="text/javascript"></script>
+  </head>
+  <body class="h-full" id="ngrok">
+    <div id="root" data-payload="eyJhZGRyIjoibG9jYWxob3N0OjM5NzgiLCJjZG5CYXNlIjoiaHR0cHM6Ly9jZG4ubmdyb2suY29tLyIsImNvZGUiOiI4MDEyIiwiZXJyb3JUZXh0IjoiZGlhbCB0Y3AgWzo6MV06Mzk3ODogY29ubmVjdDogY29ubmVjdGlvbiByZWZ1c2VkIiwibWVzc2FnZSI6IlRyYWZmaWMgd2FzIHN1Y2Nlc3NmdWxseSB0dW5uZWxlZCB0byB0aGUgbmdyb2sgYWdlbnQsIGJ1dCB0aGUgYWdlbnQgZmFpbGVkIHRvIGVzdGFibGlzaCBhIGNvbm5lY3Rpb24gdG8gdGhlIHVwc3RyZWFtIHdlYiBzZXJ2aWNlIGF0IGxvY2FsaG9zdDozOTc4LiIsInNjaGVtZSI6Imh0dHAiLCJ0aXRsZSI6IkJhZCBSZXF1ZXN0In0="></div>
+  </body>
+</html>
+
+2025-05-22 16:52:14,401 - INFO - Processed ticket #15683: Assigned to Michael Barbin
+2025-05-22 16:53:37,516 - INFO - Starting to process tickets...
+2025-05-22 16:53:37,517 - INFO - Loading technician mapping from technician_mapping.json
+2025-05-22 16:53:37,518 - INFO - Loaded 5 technicians
+2025-05-22 16:53:37,518 - INFO - Processing schedules for Michael Barbin
+2025-05-22 16:53:37,518 - INFO - Processing schedules for Jomaree Lawsin
+2025-05-22 16:53:37,518 - INFO - Processing schedules for Carl Tamayo
+2025-05-22 16:53:37,518 - INFO - Processing schedules for Jorenzo Lucero
+2025-05-22 16:53:37,518 - INFO - Processing schedules for Carl Lim
+2025-05-22 16:53:39,381 - INFO - Found 31 active tickets
+2025-05-22 16:53:39,382 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:53:39,382 - INFO - Processing ticket #15685:
+2025-05-22 16:53:39,382 - INFO -   Category: Remote Support
+2025-05-22 16:53:39,382 - INFO -   Subject: New Employees
+2025-05-22 16:53:39,382 - INFO -   Status: In Progress
+2025-05-22 16:53:39,383 - INFO - Processing ticket #15684:
+2025-05-22 16:53:39,383 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:53:39,383 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:53:39,383 - INFO -   Status: Scheduled
+2025-05-22 16:53:39,383 - INFO - Processing ticket #15683:
+2025-05-22 16:53:39,383 - INFO -   Category: Remote Support
+2025-05-22 16:53:39,383 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:53:39,383 - INFO -   Status: In Progress
+2025-05-22 16:53:39,383 - ERROR - Error loading processed tickets: Expecting value: line 1 column 1 (char 0)
+2025-05-22 16:53:39,383 - INFO - Starting to process each ticket...
+2025-05-22 16:53:39,383 - INFO - Processing new ticket #15685
+2025-05-22 16:53:39,383 - INFO - Starting assignment for ticket #15685
+2025-05-22 16:53:39,383 - INFO - Raw ticket category: Remote Support
+2025-05-22 16:53:39,384 - INFO - Mapping Syncro category: Remote Support
+2025-05-22 16:53:39,384 - INFO - Normalized category: remote support
+2025-05-22 16:53:39,384 - INFO - Mapped category: Level 1
+2025-05-22 16:53:39,384 - INFO - Finding available technicians for category: Level 1
+2025-05-22 16:53:39,384 - INFO - Checking technician schedules...
+2025-05-22 16:53:39,384 - INFO - Checking availability for Michael Barbin
+2025-05-22 16:53:39,384 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:39,384 - INFO - Checking availability for Jomaree Lawsin
+2025-05-22 16:53:39,384 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:39,384 - INFO - Checking availability for Carl Tamayo
+2025-05-22 16:53:39,384 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:39,384 - INFO - Checking availability for Jorenzo Lucero
+2025-05-22 16:53:39,384 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:39,384 - INFO - Checking availability for Carl Lim
+2025-05-22 16:53:39,384 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:39,385 - INFO - TEST_MODE is False
+2025-05-22 16:53:39,385 - INFO - Valid technician assigned: Jomaree Lawsin
+2025-05-22 16:53:39,385 - INFO - Sending Teams notification for ticket #15685 to Jomaree Lawsin
+2025-05-22 16:53:39,385 - INFO - Using Teams channel ID: 19:a0b94845e5b94ee29d7278c860e82e1f@thread.tacv2
+2025-05-22 16:53:39,385 - INFO - Sending Teams notification to https://3232-73-92-93-16.ngrok-free.app/notify
+2025-05-22 16:53:39,385 - INFO - Notification data: {'ticketId': 15685, 'assignedTo': 'Jomaree Lawsin', 'summary': 'New Employees'}
+2025-05-22 16:53:39,728 - INFO - Found 31 active tickets
+2025-05-22 16:53:39,728 - INFO - Test mode: Processing most recent active ticket
+2025-05-22 16:53:39,731 - ERROR - Error loading processed tickets: Expecting value: line 1 column 1 (char 0)
+2025-05-22 16:53:40,100 - ERROR - Failed to send Teams notification: 500 - "Teams channel ID not configured"
+2025-05-22 16:53:40,101 - INFO - Processed ticket #15685: Assigned to Michael Barbin
+2025-05-22 16:53:40,100 - INFO - Teams notification response: 500 - "Teams channel ID not configured"
+2025-05-22 16:53:40,102 - ERROR - Failed to send Teams notification: 500 - "Teams channel ID not configured"
+2025-05-22 16:53:40,103 - INFO - Processed ticket #15685: Assigned to Jomaree Lawsin
+2025-05-22 16:53:40,103 - INFO - Processing new ticket #15684
+2025-05-22 16:53:40,103 - INFO - Starting assignment for ticket #15684
+2025-05-22 16:53:40,103 - INFO - Raw ticket category: Monitors & Alerts
+2025-05-22 16:53:40,103 - INFO - Mapping Syncro category: Monitors & Alerts
+2025-05-22 16:53:40,103 - INFO - Normalized category: monitors & alerts
+2025-05-22 16:53:40,103 - INFO - Mapped category: Level 1
+2025-05-22 16:53:40,103 - INFO - Finding available technicians for category: Level 1
+2025-05-22 16:53:40,104 - INFO - Checking technician schedules...
+2025-05-22 16:53:40,104 - INFO - Checking availability for Michael Barbin
+2025-05-22 16:53:40,104 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:40,104 - INFO - Checking availability for Jomaree Lawsin
+2025-05-22 16:53:40,104 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:40,105 - INFO - Checking availability for Carl Tamayo
+2025-05-22 16:53:40,105 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:40,105 - INFO - Checking availability for Jorenzo Lucero
+2025-05-22 16:53:40,105 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:40,105 - INFO - Checking availability for Carl Lim
+2025-05-22 16:53:40,105 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:40,106 - INFO - TEST_MODE is False
+2025-05-22 16:53:40,106 - INFO - Valid technician assigned: Michael Barbin
+2025-05-22 16:53:40,107 - INFO - Sending Teams notification for ticket #15684 to Michael Barbin
+2025-05-22 16:53:40,107 - INFO - Using Teams channel ID: 19:a0b94845e5b94ee29d7278c860e82e1f@thread.tacv2
+2025-05-22 16:53:40,107 - INFO - Sending Teams notification to https://3232-73-92-93-16.ngrok-free.app/notify
+2025-05-22 16:53:40,107 - INFO - Notification data: {'ticketId': 15684, 'assignedTo': 'Michael Barbin', 'summary': '[Automated] Asset Offline - MGMT-CLICKENG'}
+2025-05-22 16:53:40,262 - INFO - Teams notification response: 500 - "Teams channel ID not configured"
+2025-05-22 16:53:40,262 - ERROR - Failed to send Teams notification: 500 - "Teams channel ID not configured"
+2025-05-22 16:53:40,263 - INFO - Processed ticket #15684: Assigned to Michael Barbin
+2025-05-22 16:53:40,263 - INFO - Processing new ticket #15683
+2025-05-22 16:53:40,263 - INFO - Starting assignment for ticket #15683
+2025-05-22 16:53:40,263 - INFO - Raw ticket category: Remote Support
+2025-05-22 16:53:40,263 - INFO - Mapping Syncro category: Remote Support
+2025-05-22 16:53:40,263 - INFO - Normalized category: remote support
+2025-05-22 16:53:40,263 - INFO - Mapped category: Level 1
+2025-05-22 16:53:40,263 - INFO - Finding available technicians for category: Level 1
+2025-05-22 16:53:40,263 - INFO - Checking technician schedules...
+2025-05-22 16:53:40,263 - INFO - Checking availability for Michael Barbin
+2025-05-22 16:53:40,263 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:40,263 - INFO - Checking availability for Jomaree Lawsin
+2025-05-22 16:53:40,263 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:40,263 - INFO - Checking availability for Carl Tamayo
+2025-05-22 16:53:40,263 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:40,263 - INFO - Checking availability for Jorenzo Lucero
+2025-05-22 16:53:40,263 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:40,263 - INFO - Checking availability for Carl Lim
+2025-05-22 16:53:40,263 - INFO - Current time: 16:53, Current day: Thu
+2025-05-22 16:53:40,263 - INFO - TEST_MODE is False
+2025-05-22 16:53:40,263 - INFO - Valid technician assigned: Jomaree Lawsin
+2025-05-22 16:53:40,263 - INFO - Sending Teams notification for ticket #15683 to Jomaree Lawsin
+2025-05-22 16:53:40,263 - INFO - Using Teams channel ID: 19:a0b94845e5b94ee29d7278c860e82e1f@thread.tacv2
+2025-05-22 16:53:40,263 - INFO - Sending Teams notification to https://3232-73-92-93-16.ngrok-free.app/notify
+2025-05-22 16:53:40,263 - INFO - Notification data: {'ticketId': 15683, 'assignedTo': 'Jomaree Lawsin', 'summary': 'Teams | Artizin'}
+2025-05-22 16:53:40,369 - INFO - Teams notification response: 500 - "Teams channel ID not configured"
+2025-05-22 16:53:40,369 - ERROR - Failed to send Teams notification: 500 - "Teams channel ID not configured"
+2025-05-22 16:53:40,369 - INFO - Processed ticket #15683: Assigned to Jomaree Lawsin
+2025-05-22 16:54:50,597 - INFO - Starting Syncro ticket processor
+2025-05-22 16:54:50,597 - INFO - Starting to process tickets...
+2025-05-22 16:54:50,597 - INFO - Loading technician mapping from technician_mapping.json
+2025-05-22 16:54:50,598 - INFO - Loaded 5 technicians
+2025-05-22 16:54:50,598 - INFO - Processing schedules for Michael Barbin
+2025-05-22 16:54:50,598 - INFO - Processing schedules for Jomaree Lawsin
+2025-05-22 16:54:50,598 - INFO - Processing schedules for Carl Tamayo
+2025-05-22 16:54:50,598 - INFO - Processing schedules for Jorenzo Lucero
+2025-05-22 16:54:50,598 - INFO - Processing schedules for Carl Lim
+2025-05-22 16:54:52,626 - INFO - Found 31 active tickets
+2025-05-22 16:54:52,626 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:54:52,627 - INFO - Processing ticket #15685:
+2025-05-22 16:54:52,627 - INFO -   Category: Remote Support
+2025-05-22 16:54:52,627 - INFO -   Subject: New Employees
+2025-05-22 16:54:52,627 - INFO -   Status: In Progress
+2025-05-22 16:54:52,627 - INFO - Processing ticket #15684:
+2025-05-22 16:54:52,627 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:54:52,627 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:54:52,627 - INFO -   Status: Scheduled
+2025-05-22 16:54:52,627 - INFO - Processing ticket #15683:
+2025-05-22 16:54:52,628 - INFO -   Category: Remote Support
+2025-05-22 16:54:52,628 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:54:52,628 - INFO -   Status: In Progress
+2025-05-22 16:54:52,628 - INFO - Starting to process each ticket...
+2025-05-22 16:54:52,628 - INFO - Skipping already processed ticket #15685
+2025-05-22 16:54:52,628 - INFO - Skipping already processed ticket #15684
+2025-05-22 16:54:52,628 - INFO - Skipping already processed ticket #15683
+2025-05-22 16:55:35,759 - INFO - Starting Syncro ticket processor
+2025-05-22 16:55:35,759 - INFO - Starting to process tickets...
+2025-05-22 16:55:35,759 - INFO - Loading technician mapping from technician_mapping.json
+2025-05-22 16:55:35,759 - INFO - Loaded 5 technicians
+2025-05-22 16:55:35,759 - INFO - Processing schedules for Michael Barbin
+2025-05-22 16:55:35,759 - INFO - Processing schedules for Jomaree Lawsin
+2025-05-22 16:55:35,759 - INFO - Processing schedules for Carl Tamayo
+2025-05-22 16:55:35,759 - INFO - Processing schedules for Jorenzo Lucero
+2025-05-22 16:55:35,759 - INFO - Processing schedules for Carl Lim
+2025-05-22 16:55:37,641 - INFO - Found 31 active tickets
+2025-05-22 16:55:37,642 - INFO - Test mode: Processing 3 most recent active tickets
+2025-05-22 16:55:37,642 - INFO - Processing ticket #15685:
+2025-05-22 16:55:37,642 - INFO -   Category: Remote Support
+2025-05-22 16:55:37,642 - INFO -   Subject: New Employees
+2025-05-22 16:55:37,642 - INFO -   Status: In Progress
+2025-05-22 16:55:37,642 - INFO - Processing ticket #15684:
+2025-05-22 16:55:37,642 - INFO -   Category: Monitors & Alerts
+2025-05-22 16:55:37,642 - INFO -   Subject: [Automated] Asset Offline - MGMT-CLICKENG
+2025-05-22 16:55:37,642 - INFO -   Status: Scheduled
+2025-05-22 16:55:37,642 - INFO - Processing ticket #15683:
+2025-05-22 16:55:37,642 - INFO -   Category: Remote Support
+2025-05-22 16:55:37,642 - INFO -   Subject: Teams | Artizin
+2025-05-22 16:55:37,642 - INFO -   Status: In Progress
+2025-05-22 16:55:37,642 - ERROR - Error loading processed tickets: Expecting value: line 1 column 1 (char 0)
+2025-05-22 16:55:37,642 - INFO - Starting to process each ticket...
+2025-05-22 16:55:37,642 - INFO - Processing new ticket #15685
+2025-05-22 16:55:37,642 - INFO - Starting assignment for ticket #15685
+2025-05-22 16:55:37,642 - INFO - Raw ticket category: Remote Support
+2025-05-22 16:55:37,642 - INFO - Mapping Syncro category: Remote Support
+2025-05-22 16:55:37,642 - INFO - Normalized category: remote support
+2025-05-22 16:55:37,642 - INFO - Mapped category: Level 1
+2025-05-22 16:55:37,642 - INFO - Finding available technicians for category: Level 1
+2025-05-22 16:55:37,642 - INFO - Checking technician schedules...
+2025-05-22 16:55:37,642 - INFO - Checking availability for Michael Barbin
+2025-05-22 16:55:37,642 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:37,642 - INFO - Checking availability for Jomaree Lawsin
+2025-05-22 16:55:37,642 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:37,642 - INFO - Checking availability for Carl Tamayo
+2025-05-22 16:55:37,642 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:37,642 - INFO - Checking availability for Jorenzo Lucero
+2025-05-22 16:55:37,642 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:37,642 - INFO - Checking availability for Carl Lim
+2025-05-22 16:55:37,643 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:37,643 - INFO - TEST_MODE is False
+2025-05-22 16:55:37,643 - INFO - Valid technician assigned: Michael Barbin
+2025-05-22 16:55:37,643 - INFO - Sending Teams notification for ticket #15685 to Michael Barbin
+2025-05-22 16:55:37,643 - INFO - Using Teams channel ID: 19:a0b94845e5b94ee29d7278c860e82e1f@thread.tacv2
+2025-05-22 16:55:37,643 - INFO - Sending Teams notification to https://3232-73-92-93-16.ngrok-free.app/notify
+2025-05-22 16:55:37,643 - INFO - Notification data: {'ticketId': 15685, 'assignedTo': 'Michael Barbin', 'summary': 'New Employees'}
+2025-05-22 16:55:38,459 - INFO - Teams notification response: 200 - "Notification sent to Teams"
+2025-05-22 16:55:38,460 - INFO - Teams notification sent for ticket #15685: "Notification sent to Teams"
+2025-05-22 16:55:38,460 - INFO - Processed ticket #15685: Assigned to Michael Barbin
+2025-05-22 16:55:38,460 - INFO - Processing new ticket #15684
+2025-05-22 16:55:38,460 - INFO - Starting assignment for ticket #15684
+2025-05-22 16:55:38,461 - INFO - Raw ticket category: Monitors & Alerts
+2025-05-22 16:55:38,461 - INFO - Mapping Syncro category: Monitors & Alerts
+2025-05-22 16:55:38,461 - INFO - Normalized category: monitors & alerts
+2025-05-22 16:55:38,461 - INFO - Mapped category: Level 1
+2025-05-22 16:55:38,461 - INFO - Finding available technicians for category: Level 1
+2025-05-22 16:55:38,461 - INFO - Checking technician schedules...
+2025-05-22 16:55:38,461 - INFO - Checking availability for Michael Barbin
+2025-05-22 16:55:38,461 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:38,461 - INFO - Checking availability for Jomaree Lawsin
+2025-05-22 16:55:38,461 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:38,461 - INFO - Checking availability for Carl Tamayo
+2025-05-22 16:55:38,462 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:38,462 - INFO - Checking availability for Jorenzo Lucero
+2025-05-22 16:55:38,462 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:38,462 - INFO - Checking availability for Carl Lim
+2025-05-22 16:55:38,462 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:38,462 - INFO - TEST_MODE is False
+2025-05-22 16:55:38,462 - INFO - Valid technician assigned: Jomaree Lawsin
+2025-05-22 16:55:38,462 - INFO - Sending Teams notification for ticket #15684 to Jomaree Lawsin
+2025-05-22 16:55:38,462 - INFO - Using Teams channel ID: 19:a0b94845e5b94ee29d7278c860e82e1f@thread.tacv2
+2025-05-22 16:55:38,462 - INFO - Sending Teams notification to https://3232-73-92-93-16.ngrok-free.app/notify
+2025-05-22 16:55:38,463 - INFO - Notification data: {'ticketId': 15684, 'assignedTo': 'Jomaree Lawsin', 'summary': '[Automated] Asset Offline - MGMT-CLICKENG'}
+2025-05-22 16:55:38,934 - INFO - Teams notification response: 200 - "Notification sent to Teams"
+2025-05-22 16:55:38,934 - INFO - Teams notification sent for ticket #15684: "Notification sent to Teams"
+2025-05-22 16:55:38,934 - INFO - Processed ticket #15684: Assigned to Jomaree Lawsin
+2025-05-22 16:55:38,934 - INFO - Processing new ticket #15683
+2025-05-22 16:55:38,935 - INFO - Starting assignment for ticket #15683
+2025-05-22 16:55:38,935 - INFO - Raw ticket category: Remote Support
+2025-05-22 16:55:38,935 - INFO - Mapping Syncro category: Remote Support
+2025-05-22 16:55:38,935 - INFO - Normalized category: remote support
+2025-05-22 16:55:38,935 - INFO - Mapped category: Level 1
+2025-05-22 16:55:38,935 - INFO - Finding available technicians for category: Level 1
+2025-05-22 16:55:38,935 - INFO - Checking technician schedules...
+2025-05-22 16:55:38,935 - INFO - Checking availability for Michael Barbin
+2025-05-22 16:55:38,936 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:38,936 - INFO - Checking availability for Jomaree Lawsin
+2025-05-22 16:55:38,936 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:38,936 - INFO - Checking availability for Carl Tamayo
+2025-05-22 16:55:38,936 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:38,937 - INFO - Checking availability for Jorenzo Lucero
+2025-05-22 16:55:38,937 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:38,938 - INFO - Checking availability for Carl Lim
+2025-05-22 16:55:38,945 - INFO - Current time: 16:55, Current day: Thu
+2025-05-22 16:55:38,945 - INFO - TEST_MODE is False
+2025-05-22 16:55:38,945 - INFO - Valid technician assigned: Michael Barbin
+2025-05-22 16:55:38,945 - INFO - Sending Teams notification for ticket #15683 to Michael Barbin
+2025-05-22 16:55:38,945 - INFO - Using Teams channel ID: 19:a0b94845e5b94ee29d7278c860e82e1f@thread.tacv2
+2025-05-22 16:55:38,945 - INFO - Sending Teams notification to https://3232-73-92-93-16.ngrok-free.app/notify
+2025-05-22 16:55:38,945 - INFO - Notification data: {'ticketId': 15683, 'assignedTo': 'Michael Barbin', 'summary': 'Teams | Artizin'}
+2025-05-22 16:55:39,433 - INFO - Teams notification response: 200 - "Notification sent to Teams"
+2025-05-22 16:55:39,434 - INFO - Teams notification sent for ticket #15683: "Notification sent to Teams"
+2025-05-22 16:55:39,434 - INFO - Processed ticket #15683: Assigned to Michael Barbin

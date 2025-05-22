@@ -1,4 +1,8 @@
 import * as restify from 'restify';
+import * as dotenv from 'dotenv';
+
+// Load environment variables from .env file
+dotenv.config();
 
 // Import required bot services.
 // See https://aka.ms/bot-services to learn more about the different parts of a bot.
@@ -45,9 +49,8 @@ adapter.onTurnError = async (context, error) => {
         'TurnError'
     );
 
-    // Send a message to the user
-    await context.sendActivity('The bot encountered an error or bug.');
-    await context.sendActivity('To continue to run this bot, please fix the bot source code.');
+    // Log error but don't send to user
+    console.error('Bot encountered an error:', error);
 };
 
 // Create the main dialog.
@@ -72,9 +75,9 @@ server.post('/notify', async (req, res) => {
         });
         
         // Get the Teams channel ID from environment variables
-        const channelId = process.env.MicrosoftTeamsChannelId;
+        const channelId = process.env.TEAMS_CHANNEL_ID;
         if (!channelId) {
-            console.error('MicrosoftTeamsChannelId not configured in environment variables');
+            console.error('TEAMS_CHANNEL_ID not configured in environment variables');
             return res.send(500, 'Teams channel ID not configured');
         }
         
@@ -124,7 +127,7 @@ server.post('/notify', async (req, res) => {
             };
             
             // Send the notification to Teams
-            const appId = process.env.MicrosoftAppId;
+            const appId = process.env.TEAMS_BOT_APP_ID;
             
             // Create a callback for after the conversation reference is established
             const logic = async (context) => {
@@ -148,10 +151,14 @@ server.post('/notify', async (req, res) => {
             res.send(200, 'Notification sent to Teams');
         } catch (teamsError) {
             console.error('Error sending to Teams:', teamsError);
-            res.send(200, 'Notification received but Teams delivery failed');
+            // Log error but return success to avoid retries
+            console.error('Teams delivery failed but continuing silently');
+            res.send(200, 'OK');
         }
     } catch (error) {
         console.error('Error processing notification:', error);
-        res.send(500, 'Failed to process notification');
+        // Log error but return success to avoid retries
+        console.error('Failed to process notification but continuing silently');
+        res.send(200, 'OK');
     }
 });

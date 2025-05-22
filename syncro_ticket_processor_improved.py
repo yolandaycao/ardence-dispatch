@@ -39,12 +39,15 @@ LEVEL1_ASSIGNMENTS = {'Michael Barbin': 0, 'Jomaree Lawsin': 0}
 
 def load_technician_mapping():
     """Load technician mapping from JSON file."""
+    logging.info(f"Loading technician mapping from {MAPPING_FILE}")
     with open(MAPPING_FILE, 'r') as f:
         data = json.load(f)
+    logging.info(f"Loaded {len(data['technicians'])} technicians")
     
     # Convert JSON structure to list of schedule entries
     mapping = []
     for tech_name, tech_info in data['technicians'].items():
+        logging.info(f"Processing schedules for {tech_name}")
         for schedule in tech_info['schedules']:
             entry = {
                 'technician': tech_name,
@@ -100,10 +103,10 @@ def get_new_tickets():
                         and t.get('status') != 'Resolved']
         logging.info(f"Found {len(active_tickets)} active tickets")
         
-        # In test mode, return the most recent active ticket
+        # In test mode, return the 3 most recent active tickets
         if FORCE_TEST and active_tickets:
-            logging.info("Test mode: Processing most recent active ticket")
-            return [active_tickets[0]]
+            logging.info("Test mode: Processing 3 most recent active tickets")
+            return active_tickets[:3]
         
         # Load already processed tickets
         processed_tickets = load_processed_tickets()
@@ -122,10 +125,12 @@ def get_new_tickets():
 
 def is_technician_available(tech_schedule):
     """Check if technician is available based on schedule."""
+    logging.info(f"Checking availability for {tech_schedule['technician']}")
     # Get current time and day
     now = datetime.now()
     current_day = now.strftime('%a')
     current_time = now.strftime('%H:%M')
+    logging.info(f"Current time: {current_time}, Current day: {current_day}")
     
     # Parse schedule days
     days_range = tech_schedule['days'].split('-')
@@ -155,7 +160,9 @@ def is_technician_available(tech_schedule):
 
 def map_syncro_category(category):
     """Map Syncro ticket categories to our internal categories."""
+    logging.info(f"Mapping Syncro category: {category}")
     category = category.lower() if category else ''
+    logging.info(f"Normalized category: {category}")
     
     if 'account' in category or 'billing' in category:
         return 'Account Management'
@@ -175,13 +182,19 @@ def map_syncro_category(category):
 def assign_technician(ticket, mapping):
     """Assign a technician to a ticket based on category and availability."""
     try:
+        logging.info(f"Starting assignment for ticket #{ticket.get('number')}")
         # Map ticket category
-        ticket_category = map_syncro_category(ticket.get('problem_type', ''))
+        raw_category = ticket.get('problem_type', '')
+        logging.info(f"Raw ticket category: {raw_category}")
+        ticket_category = map_syncro_category(raw_category)
+        logging.info(f"Mapped category: {ticket_category}")
         
         # Get available technicians for this category
+        logging.info(f"Finding available technicians for category: {ticket_category}")
         available_techs = []
         level1_techs = []
         
+        logging.info("Checking technician schedules...")
         for entry in mapping:
             if is_technician_available(entry):
                 if 'All' in entry['categories'] or ticket_category in entry['categories']:
@@ -282,6 +295,7 @@ def save_assignment_result(ticket, assignment):
 def process_tickets():
     """Main function to process new tickets."""
     try:
+        logging.info("Starting to process tickets...")
         # Load technician mapping
         mapping = load_technician_mapping()
         if not mapping:
@@ -293,16 +307,26 @@ def process_tickets():
         if not unassigned_tickets:
             logging.info("No new tickets to process")
             return
+            
+        # Log ticket details
+        for ticket in unassigned_tickets:
+            logging.info(f"Processing ticket #{ticket.get('number')}:")
+            logging.info(f"  Category: {ticket.get('problem_type')}")
+            logging.info(f"  Subject: {ticket.get('subject')}")
+            logging.info(f"  Status: {ticket.get('status')}")
         
         # Load processed tickets set
         processed_tickets = load_processed_tickets()
         
         # Process each ticket
+        logging.info("Starting to process each ticket...")
         for ticket in unassigned_tickets:
             try:
                 # Skip if already processed (double-check)
                 if str(ticket.get('id')) in processed_tickets:
+                    logging.info(f"Skipping already processed ticket #{ticket.get('number')}")
                     continue
+                logging.info(f"Processing new ticket #{ticket.get('number')}")
                 
                 # Assign technician
                 assignment = assign_technician(ticket, mapping)
@@ -317,10 +341,16 @@ def process_tickets():
                 save_assignment_result(ticket, assignment)
                 
                 # Send Teams notification
-                if assignment['technician'] != 'Needs human input' and not TEST_MODE:
-                    send_teams_notification(ticket, assignment)
-                elif TEST_MODE:
-                    logging.info(f"TEST MODE: Would send notification for ticket #{ticket.get('number')} to {assignment['technician']}")
+                logging.info(f"TEST_MODE is {TEST_MODE}")
+                if assignment['technician'] != 'Needs human input':
+                    logging.info(f"Valid technician assigned: {assignment['technician']}")
+                    if not TEST_MODE:
+                        logging.info(f"Sending Teams notification for ticket #{ticket.get('number')} to {assignment['technician']}")
+                        send_teams_notification(ticket, assignment)
+                    else:
+                        logging.info(f"TEST MODE: Would send notification for ticket #{ticket.get('number')} to {assignment['technician']}")
+                else:
+                    logging.info("No valid technician assigned, skipping notification")
                 
                 # Mark ticket as processed
                 processed_tickets.add(str(ticket.get('id')))
@@ -339,11 +369,18 @@ def process_tickets():
 def send_teams_notification(ticket, assignment):
     """Send notification to Teams bot."""
     try:
+        # Decode URL-encoded characters in channel ID
+        channel_id = os.getenv('TEAMS_CHANNEL_ID', '').replace('%3A', ':').replace('%40', '@')
+        logging.info(f"Using Teams channel ID: {channel_id}")
         notification_data = {
             "ticketId": ticket.get('number', str(ticket.get('id', 'Unknown'))),
             "assignedTo": assignment['technician'],
             "summary": ticket.get('subject', 'No subject')
         }
+        
+        # Log notification attempt
+        logging.info(f"Sending Teams notification to {TEAMS_BOT_URL}/notify")
+        logging.info(f"Notification data: {notification_data}")
         
         # Send to Teams bot notification endpoint
         response = requests.post(
@@ -351,6 +388,9 @@ def send_teams_notification(ticket, assignment):
             json=notification_data,
             headers={"Content-Type": "application/json"}
         )
+        
+        # Log response
+        logging.info(f"Teams notification response: {response.status_code} - {response.text}")
         
         if response.status_code == 200:
             logging.info(f"Teams notification sent for ticket #{ticket.get('number')}: {response.text}")
