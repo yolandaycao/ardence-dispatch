@@ -1,291 +1,366 @@
-2025-05-21 16:00:13,187 - INFO - Starting Syncro ticket processor...
-2025-05-21 16:00:13,211 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:00:13,948 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-21 HTTP/1.1" 200 None
-2025-05-21 16:00:14,021 - INFO - Initial processing complete, entering main loop...
-2025-05-21 16:01:07,313 - INFO - Starting Syncro ticket processor...
-2025-05-21 16:01:07,313 - INFO - Looking for tickets created since 2025-05-14
-2025-05-21 16:01:07,318 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:01:09,376 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
-2025-05-21 16:01:09,672 - INFO - Initial processing complete, entering main loop...
-2025-05-21 16:06:07,580 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
-2025-05-21 16:06:07,581 - INFO - Looking for tickets created since 2025-05-14
-2025-05-21 16:06:07,602 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:06:10,504 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
-2025-05-21 16:11:11,589 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
-2025-05-21 16:11:11,591 - INFO - Looking for tickets created since 2025-05-14
-2025-05-21 16:11:11,612 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:11:13,407 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
-2025-05-21 16:16:14,500 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
-2025-05-21 16:16:14,502 - INFO - Looking for tickets created since 2025-05-14
-2025-05-21 16:16:14,527 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:16:16,413 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
-2025-05-21 16:21:17,451 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
-2025-05-21 16:21:17,453 - INFO - Looking for tickets created since 2025-05-14
-2025-05-21 16:21:17,473 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:21:19,767 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
-2025-05-21 16:26:20,993 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
-2025-05-21 16:26:20,995 - INFO - Looking for tickets created since 2025-05-14
-2025-05-21 16:26:21,028 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:26:22,710 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
-2025-05-21 16:31:23,857 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
-2025-05-21 16:31:23,858 - INFO - Looking for tickets created since 2025-05-14
-2025-05-21 16:31:23,876 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:31:25,716 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
-2025-05-21 16:36:26,852 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
-2025-05-21 16:36:26,854 - INFO - Looking for tickets created since 2025-05-14
-2025-05-21 16:36:26,875 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:36:28,820 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
-2025-05-21 16:41:29,886 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
-2025-05-21 16:41:29,888 - INFO - Looking for tickets created since 2025-05-14
-2025-05-21 16:41:29,942 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:41:31,831 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?created_after=2025-05-14 HTTP/1.1" 200 None
-2025-05-21 16:42:39,471 - INFO - Starting Syncro ticket processor...
-2025-05-21 16:42:39,472 - INFO - Fetching all tickets...
-2025-05-21 16:42:39,478 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:42:41,414 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets HTTP/1.1" 200 None
-2025-05-21 16:42:41,723 - INFO - Initial processing complete, entering main loop...
-2025-05-21 16:43:20,382 - INFO - Starting Syncro ticket processor...
-2025-05-21 16:43:20,382 - INFO - Fetching all tickets...
-2025-05-21 16:43:20,433 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:43:20,778 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /customer_portal/api/v1/tickets HTTP/1.1" 404 34
-2025-05-21 16:43:20,780 - INFO - Initial processing complete, entering main loop...
-2025-05-21 16:44:01,228 - INFO - Starting Syncro ticket processor...
-2025-05-21 16:44:01,228 - INFO - Fetching all tickets...
-2025-05-21 16:44:01,234 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:44:03,055 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
-2025-05-21 16:44:03,275 - INFO - Initial processing complete, entering main loop...
-2025-05-21 16:44:43,884 - INFO - Starting Syncro ticket processor...
-2025-05-21 16:44:43,885 - INFO - Fetching all tickets...
-2025-05-21 16:44:43,916 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:44:45,567 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
-2025-05-21 16:44:45,845 - INFO - Initial processing complete, entering main loop...
-2025-05-21 16:51:16,205 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
-2025-05-21 16:51:16,205 - INFO - Fetching all tickets...
-2025-05-21 16:51:16,207 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:56:16,579 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
-2025-05-21 16:56:16,580 - INFO - Fetching all tickets...
-2025-05-21 16:56:16,617 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 16:56:19,544 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
-2025-05-21 17:01:20,566 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
-2025-05-21 17:01:20,567 - INFO - Fetching all tickets...
-2025-05-21 17:01:20,570 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 17:01:22,811 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
-2025-05-21 17:04:22,554 - INFO - Starting Syncro ticket processor...
-2025-05-21 17:04:22,554 - INFO - Fetching all tickets...
-2025-05-21 17:04:23,177 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 17:04:25,153 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
-2025-05-21 17:04:25,392 - INFO - Initial processing complete, entering main loop...
-2025-05-21 17:06:23,893 - DEBUG - Running job Job(interval=5, unit=minutes, do=process_tickets, args=(), kwargs={})
-2025-05-21 17:06:23,903 - INFO - Fetching all tickets...
-2025-05-21 17:06:23,905 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 17:06:25,883 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
-2025-05-21 17:06:48,594 - INFO - Starting Syncro ticket processor...
-2025-05-21 17:06:48,595 - INFO - Fetching all tickets...
-2025-05-21 17:06:48,600 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 17:06:50,385 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
-2025-05-21 17:06:50,576 - ERROR - Unexpected response type: <class 'dict'>
-2025-05-21 17:06:50,576 - INFO - No unassigned tickets found
-2025-05-21 17:06:50,576 - INFO - Initial processing complete, entering main loop...
-2025-05-21 17:07:52,466 - INFO - Starting Syncro ticket processor...
-2025-05-21 17:07:52,467 - INFO - Fetching all tickets...
-2025-05-21 17:07:52,473 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 17:07:54,199 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
-2025-05-21 17:07:54,512 - ERROR - Unexpected response type: <class 'dict'>
-2025-05-21 17:07:54,513 - INFO - No unassigned tickets found
-2025-05-21 17:07:54,513 - INFO - Initial processing complete, entering main loop...
-2025-05-21 17:08:40,535 - INFO - Starting Syncro ticket processor...
-2025-05-21 17:08:40,536 - INFO - Fetching all tickets...
-2025-05-21 17:08:40,541 - DEBUG - Starting new HTTPS connection (1): cloudavize.syncromsp.com:443
-2025-05-21 17:08:42,291 - DEBUG - https://cloudavize.syncromsp.com:443 "GET /api/v1/tickets?api_key=T761d34d6b5ba3f406-e2679e1ba9673b8927d3134481ed59f2 HTTP/1.1" 200 None
-2025-05-21 17:08:42,573 - INFO - No unassigned tickets found
-2025-05-21 17:08:42,573 - INFO - Initial processing complete, entering main loop...
-2025-05-21 17:11:26,573 - INFO - Starting Syncro ticket processor
-2025-05-21 17:11:28,681 - INFO - Found 0 unassigned tickets
-2025-05-21 17:11:51,009 - INFO - Starting Syncro ticket processor
-2025-05-21 17:11:52,864 - INFO - Found 0 unassigned tickets
-2025-05-21 17:16:27,558 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 17:21:28,490 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 17:26:29,386 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 17:31:30,258 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 17:36:31,135 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 17:41:31,293 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 17:46:32,210 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 17:51:32,320 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 17:56:32,338 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 18:01:33,197 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 18:06:34,058 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 18:11:34,915 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 18:16:35,836 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 18:21:36,804 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 18:26:37,741 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 18:31:38,658 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 18:36:39,553 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 18:41:40,410 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 18:46:41,085 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 18:51:42,065 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 18:56:42,880 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 19:01:43,672 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 19:06:44,371 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 19:11:44,934 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 19:16:45,483 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 19:21:45,993 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 19:26:46,506 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 19:31:47,100 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 19:36:47,615 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 19:41:48,083 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 21:46:55,591 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 21:51:56,408 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 21:56:57,215 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 22:16:43,135 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 22:36:21,015 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-21 23:11:06,906 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 00:08:40,729 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 00:13:41,703 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 00:18:41,895 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 00:23:42,868 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 00:28:43,567 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 00:33:44,137 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 00:38:44,401 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 00:43:45,095 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 00:48:45,391 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 00:53:45,441 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 00:58:46,056 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 01:03:46,066 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 01:08:46,734 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 01:13:46,933 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 01:18:47,513 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 01:23:48,499 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 01:28:48,503 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 01:33:48,766 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 01:38:49,343 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 01:43:49,782 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 01:48:50,042 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 01:53:50,985 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 01:58:51,817 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 02:03:52,477 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 02:08:53,475 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 02:13:54,450 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 02:18:54,865 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 02:23:55,569 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 02:28:55,698 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 02:33:56,063 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 02:38:56,423 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 02:43:56,527 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 02:48:57,314 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 02:53:57,372 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 02:58:57,435 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 03:03:57,831 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 03:08:58,743 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 03:13:59,268 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 03:18:59,728 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 03:23:59,894 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 03:29:00,737 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 03:34:01,040 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 03:39:01,537 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 03:44:02,401 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 03:49:02,755 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 03:54:03,078 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 03:59:03,924 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 04:04:04,268 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 04:09:04,637 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 04:14:05,075 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 04:19:05,620 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 04:24:06,465 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 04:29:07,179 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 04:34:07,710 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 04:39:07,993 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 04:44:08,410 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 04:49:08,481 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 04:54:08,485 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 04:59:08,689 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 05:04:09,400 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 05:09:09,696 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 05:14:09,920 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 05:19:10,194 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 05:24:10,574 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 05:29:10,678 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 05:34:11,393 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 05:39:12,156 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 05:44:12,484 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 05:49:12,508 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 05:54:13,147 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 05:59:13,820 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 06:04:14,160 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 06:09:14,804 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 06:14:15,566 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 06:19:16,438 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 06:24:16,625 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 06:29:16,952 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 06:34:17,880 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 06:39:18,656 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 06:44:19,585 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 06:49:20,455 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 06:54:20,844 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 06:59:21,206 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 07:04:22,007 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 07:09:22,151 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 07:14:22,714 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 07:19:23,497 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 07:45:08,372 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 07:50:18,139 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 08:02:23,196 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 08:07:23,800 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 08:12:24,437 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 08:17:24,987 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 08:22:25,237 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 08:27:25,611 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 08:32:25,809 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 08:37:26,110 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 08:42:26,558 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 08:47:27,033 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 08:52:27,561 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 08:57:28,503 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 09:02:29,392 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 09:07:30,257 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 09:12:31,112 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 09:17:31,915 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 09:22:32,737 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 09:27:33,571 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 09:32:34,397 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 09:37:35,279 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 09:42:36,165 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 09:47:37,062 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 09:52:37,915 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 09:57:38,789 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 10:02:39,565 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 10:07:40,486 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 10:12:41,068 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 10:17:41,250 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 10:22:41,428 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 10:27:42,412 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 10:32:43,047 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 10:37:44,013 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 10:42:44,026 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 10:47:45,027 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 10:52:46,026 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 10:57:46,102 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 11:02:47,051 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 11:07:47,086 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 11:12:47,976 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 11:17:48,842 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 11:22:49,670 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 11:27:50,564 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 11:32:51,453 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 11:37:52,393 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 11:42:53,229 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 11:47:54,188 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 11:52:55,029 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 11:57:55,916 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 12:02:56,728 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 12:07:57,560 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 12:10:23,503 - INFO - Starting Syncro ticket processor
-2025-05-22 12:10:23,503 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 12:11:56,072 - INFO - Starting Syncro ticket processor
-2025-05-22 12:11:56,072 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 12:12:58,373 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 12:18:01,722 - INFO - Found 0 unassigned tickets
-2025-05-22 12:23:05,373 - INFO - Found 0 unassigned tickets
-2025-05-22 12:28:06,291 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 12:33:07,175 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 12:38:08,079 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
-2025-05-22 12:43:08,992 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 12:53:10,885 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 12:58:11,696 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 13:03:12,631 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 13:08:13,502 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 13:13:14,381 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 13:18:15,349 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 13:23:16,218 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 13:28:17,124 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 13:33:17,943 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 13:38:18,795 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 13:43:19,644 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 13:48:20,586 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 13:53:21,578 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 13:58:22,492 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 14:03:23,270 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 14:08:24,116 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 14:13:25,006 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 14:18:25,935 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 14:23:26,836 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 14:28:27,824 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 14:33:28,218 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 14:38:28,480 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 14:43:29,468 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 14:48:30,382 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 14:53:31,360 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 14:57:47,434 - INFO - Starting Syncro ticket processor
+2025-05-22 14:57:50,174 - INFO - Found 33 active tickets
+2025-05-22 14:57:50,177 - ERROR - Error processing ticket 94935475: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,177 - ERROR - Error processing ticket 94951784: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,177 - ERROR - Error processing ticket 94992340: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,178 - ERROR - Error processing ticket 95000060: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,178 - ERROR - Error processing ticket 95001344: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,178 - ERROR - Error processing ticket 95010149: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,178 - ERROR - Error processing ticket 95011293: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,178 - ERROR - Error processing ticket 95011895: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,178 - ERROR - Error processing ticket 95012596: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,178 - ERROR - Error processing ticket 95012728: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,179 - ERROR - Error processing ticket 95014897: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,179 - ERROR - Error processing ticket 95040304: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,179 - ERROR - Error processing ticket 95047739: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,179 - ERROR - Error processing ticket 95049792: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,179 - ERROR - Error processing ticket 95055506: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,179 - ERROR - Error processing ticket 95056204: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,179 - ERROR - Error processing ticket 95059466: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,179 - ERROR - Error processing ticket 95067130: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,180 - ERROR - Error processing ticket 95085293: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,180 - ERROR - Error processing ticket 95094318: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,180 - ERROR - Error processing ticket 95094688: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,180 - ERROR - Error processing ticket 95094731: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,180 - ERROR - Error processing ticket 95102786: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,180 - ERROR - Error processing ticket 95105269: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,180 - ERROR - Error processing ticket 95120016: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,180 - ERROR - Error processing ticket 95130972: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,180 - ERROR - Error processing ticket 95132534: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,180 - ERROR - Error processing ticket 95134589: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,181 - ERROR - Error processing ticket 95147426: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,181 - ERROR - Error processing ticket 95147920: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,181 - ERROR - Error processing ticket 95150345: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,181 - ERROR - Error processing ticket 95151484: name 'save_assignment_result' is not defined
+2025-05-22 14:57:50,181 - ERROR - Error processing ticket 95151968: name 'save_assignment_result' is not defined
+2025-05-22 14:58:32,361 - ERROR - Error in process_tickets: [Errno 2] No such file or directory: 'technician_mapping.csv'
+2025-05-22 14:59:11,723 - INFO - Starting Syncro ticket processor
+2025-05-22 14:59:13,500 - INFO - Found 33 active tickets
+2025-05-22 14:59:13,666 - INFO - Teams notification sent for ticket #15631: "Notification received (Teams integration pending)"
+2025-05-22 14:59:13,666 - INFO - Processed ticket #15631: Assigned to Michael Barbin
+2025-05-22 14:59:13,667 - INFO - Processed ticket #15633: Assigned to Needs human input
+2025-05-22 14:59:13,776 - INFO - Teams notification sent for ticket #15635: "Notification received (Teams integration pending)"
+2025-05-22 14:59:13,776 - INFO - Processed ticket #15635: Assigned to Michael Barbin
+2025-05-22 14:59:13,890 - INFO - Teams notification sent for ticket #15640: "Notification received (Teams integration pending)"
+2025-05-22 14:59:13,890 - INFO - Processed ticket #15640: Assigned to Michael Barbin
+2025-05-22 14:59:14,006 - INFO - Teams notification sent for ticket #15641: "Notification received (Teams integration pending)"
+2025-05-22 14:59:14,006 - INFO - Processed ticket #15641: Assigned to Michael Barbin
+2025-05-22 14:59:14,115 - INFO - Teams notification sent for ticket #15643: "Notification received (Teams integration pending)"
+2025-05-22 14:59:14,116 - INFO - Processed ticket #15643: Assigned to Michael Barbin
+2025-05-22 14:59:14,116 - INFO - Processed ticket #15644: Assigned to Needs human input
+2025-05-22 14:59:14,227 - INFO - Teams notification sent for ticket #15645: "Notification received (Teams integration pending)"
+2025-05-22 14:59:14,227 - INFO - Processed ticket #15645: Assigned to Michael Barbin
+2025-05-22 14:59:14,335 - INFO - Teams notification sent for ticket #15646: "Notification received (Teams integration pending)"
+2025-05-22 14:59:14,336 - INFO - Processed ticket #15646: Assigned to Michael Barbin
+2025-05-22 14:59:14,446 - INFO - Teams notification sent for ticket #15647: "Notification received (Teams integration pending)"
+2025-05-22 14:59:14,446 - INFO - Processed ticket #15647: Assigned to Michael Barbin
+2025-05-22 14:59:14,573 - INFO - Teams notification sent for ticket #15648: "Notification received (Teams integration pending)"
+2025-05-22 14:59:14,574 - INFO - Processed ticket #15648: Assigned to Michael Barbin
+2025-05-22 14:59:14,682 - INFO - Teams notification sent for ticket #15649: "Notification received (Teams integration pending)"
+2025-05-22 14:59:14,682 - INFO - Processed ticket #15649: Assigned to Michael Barbin
+2025-05-22 14:59:14,804 - INFO - Teams notification sent for ticket #15653: "Notification received (Teams integration pending)"
+2025-05-22 14:59:14,804 - INFO - Processed ticket #15653: Assigned to Michael Barbin
+2025-05-22 14:59:14,916 - INFO - Teams notification sent for ticket #15656: "Notification received (Teams integration pending)"
+2025-05-22 14:59:14,916 - INFO - Processed ticket #15656: Assigned to Michael Barbin
+2025-05-22 14:59:15,054 - INFO - Teams notification sent for ticket #15658: "Notification received (Teams integration pending)"
+2025-05-22 14:59:15,054 - INFO - Processed ticket #15658: Assigned to Michael Barbin
+2025-05-22 14:59:15,184 - INFO - Teams notification sent for ticket #15659: "Notification received (Teams integration pending)"
+2025-05-22 14:59:15,185 - INFO - Processed ticket #15659: Assigned to Michael Barbin
+2025-05-22 14:59:15,185 - INFO - Processed ticket #15661: Assigned to Needs human input
+2025-05-22 14:59:15,186 - INFO - Processed ticket #15663: Assigned to Needs human input
+2025-05-22 14:59:15,295 - INFO - Teams notification sent for ticket #15664: "Notification received (Teams integration pending)"
+2025-05-22 14:59:15,295 - INFO - Processed ticket #15664: Assigned to Michael Barbin
+2025-05-22 14:59:15,412 - INFO - Teams notification sent for ticket #15667: "Notification received (Teams integration pending)"
+2025-05-22 14:59:15,412 - INFO - Processed ticket #15667: Assigned to Michael Barbin
+2025-05-22 14:59:15,521 - INFO - Teams notification sent for ticket #15669: "Notification received (Teams integration pending)"
+2025-05-22 14:59:15,521 - INFO - Processed ticket #15669: Assigned to Michael Barbin
+2025-05-22 14:59:15,650 - INFO - Teams notification sent for ticket #15670: "Notification received (Teams integration pending)"
+2025-05-22 14:59:15,650 - INFO - Processed ticket #15670: Assigned to Michael Barbin
+2025-05-22 14:59:15,769 - INFO - Teams notification sent for ticket #15672: "Notification received (Teams integration pending)"
+2025-05-22 14:59:15,769 - INFO - Processed ticket #15672: Assigned to Michael Barbin
+2025-05-22 14:59:15,890 - INFO - Teams notification sent for ticket #15673: "Notification received (Teams integration pending)"
+2025-05-22 14:59:15,890 - INFO - Processed ticket #15673: Assigned to Michael Barbin
+2025-05-22 14:59:15,891 - INFO - Processed ticket #15674: Assigned to Needs human input
+2025-05-22 14:59:16,003 - INFO - Teams notification sent for ticket #15677: "Notification received (Teams integration pending)"
+2025-05-22 14:59:16,003 - INFO - Processed ticket #15677: Assigned to Michael Barbin
+2025-05-22 14:59:16,121 - INFO - Teams notification sent for ticket #15678: "Notification received (Teams integration pending)"
+2025-05-22 14:59:16,122 - INFO - Processed ticket #15678: Assigned to Michael Barbin
+2025-05-22 14:59:16,236 - INFO - Teams notification sent for ticket #15679: "Notification received (Teams integration pending)"
+2025-05-22 14:59:16,237 - INFO - Processed ticket #15679: Assigned to Michael Barbin
+2025-05-22 14:59:16,377 - INFO - Teams notification sent for ticket #15681: "Notification received (Teams integration pending)"
+2025-05-22 14:59:16,377 - INFO - Processed ticket #15681: Assigned to Michael Barbin
+2025-05-22 14:59:16,495 - INFO - Teams notification sent for ticket #15682: "Notification received (Teams integration pending)"
+2025-05-22 14:59:16,495 - INFO - Processed ticket #15682: Assigned to Michael Barbin
+2025-05-22 14:59:16,615 - INFO - Teams notification sent for ticket #15683: "Notification received (Teams integration pending)"
+2025-05-22 14:59:16,615 - INFO - Processed ticket #15683: Assigned to Michael Barbin
+2025-05-22 14:59:16,616 - INFO - Processed ticket #15684: Assigned to Needs human input
+2025-05-22 14:59:16,733 - INFO - Teams notification sent for ticket #15685: "Notification received (Teams integration pending)"
+2025-05-22 14:59:16,733 - INFO - Processed ticket #15685: Assigned to Michael Barbin
+2025-05-22 15:01:40,022 - INFO - Starting Syncro ticket processor
+2025-05-22 15:01:42,024 - INFO - Found 33 active tickets
+2025-05-22 15:01:42,188 - INFO - Teams notification sent for ticket #15631: "Notification received (Teams integration pending)"
+2025-05-22 15:01:42,188 - INFO - Processed ticket #15631: Assigned to Michael Barbin
+2025-05-22 15:01:42,189 - INFO - Processed ticket #15633: Assigned to Needs human input
+2025-05-22 15:01:42,304 - INFO - Teams notification sent for ticket #15635: "Notification received (Teams integration pending)"
+2025-05-22 15:01:42,304 - INFO - Processed ticket #15635: Assigned to Michael Barbin
+2025-05-22 15:01:42,412 - INFO - Teams notification sent for ticket #15640: "Notification received (Teams integration pending)"
+2025-05-22 15:01:42,413 - INFO - Processed ticket #15640: Assigned to Michael Barbin
+2025-05-22 15:01:42,517 - INFO - Teams notification sent for ticket #15641: "Notification received (Teams integration pending)"
+2025-05-22 15:01:42,517 - INFO - Processed ticket #15641: Assigned to Michael Barbin
+2025-05-22 15:01:42,652 - INFO - Teams notification sent for ticket #15643: "Notification received (Teams integration pending)"
+2025-05-22 15:01:42,652 - INFO - Processed ticket #15643: Assigned to Michael Barbin
+2025-05-22 15:01:42,653 - INFO - Processed ticket #15644: Assigned to Needs human input
+2025-05-22 15:01:42,757 - INFO - Teams notification sent for ticket #15645: "Notification received (Teams integration pending)"
+2025-05-22 15:01:42,757 - INFO - Processed ticket #15645: Assigned to Michael Barbin
+2025-05-22 15:01:42,870 - INFO - Teams notification sent for ticket #15646: "Notification received (Teams integration pending)"
+2025-05-22 15:01:42,870 - INFO - Processed ticket #15646: Assigned to Michael Barbin
+2025-05-22 15:01:42,984 - INFO - Teams notification sent for ticket #15647: "Notification received (Teams integration pending)"
+2025-05-22 15:01:42,984 - INFO - Processed ticket #15647: Assigned to Michael Barbin
+2025-05-22 15:01:43,094 - INFO - Teams notification sent for ticket #15648: "Notification received (Teams integration pending)"
+2025-05-22 15:01:43,094 - INFO - Processed ticket #15648: Assigned to Michael Barbin
+2025-05-22 15:01:43,200 - INFO - Teams notification sent for ticket #15649: "Notification received (Teams integration pending)"
+2025-05-22 15:01:43,201 - INFO - Processed ticket #15649: Assigned to Michael Barbin
+2025-05-22 15:01:43,303 - INFO - Teams notification sent for ticket #15653: "Notification received (Teams integration pending)"
+2025-05-22 15:01:43,303 - INFO - Processed ticket #15653: Assigned to Michael Barbin
+2025-05-22 15:01:43,412 - INFO - Teams notification sent for ticket #15656: "Notification received (Teams integration pending)"
+2025-05-22 15:01:43,412 - INFO - Processed ticket #15656: Assigned to Michael Barbin
+2025-05-22 15:01:43,525 - INFO - Teams notification sent for ticket #15658: "Notification received (Teams integration pending)"
+2025-05-22 15:01:43,525 - INFO - Processed ticket #15658: Assigned to Michael Barbin
+2025-05-22 15:01:43,642 - INFO - Teams notification sent for ticket #15659: "Notification received (Teams integration pending)"
+2025-05-22 15:01:43,643 - INFO - Processed ticket #15659: Assigned to Michael Barbin
+2025-05-22 15:01:43,644 - INFO - Processed ticket #15661: Assigned to Needs human input
+2025-05-22 15:01:43,645 - INFO - Processed ticket #15663: Assigned to Needs human input
+2025-05-22 15:01:43,752 - INFO - Teams notification sent for ticket #15664: "Notification received (Teams integration pending)"
+2025-05-22 15:01:43,752 - INFO - Processed ticket #15664: Assigned to Michael Barbin
+2025-05-22 15:01:43,863 - INFO - Teams notification sent for ticket #15667: "Notification received (Teams integration pending)"
+2025-05-22 15:01:43,863 - INFO - Processed ticket #15667: Assigned to Michael Barbin
+2025-05-22 15:01:43,989 - INFO - Teams notification sent for ticket #15669: "Notification received (Teams integration pending)"
+2025-05-22 15:01:43,989 - INFO - Processed ticket #15669: Assigned to Michael Barbin
+2025-05-22 15:01:44,131 - INFO - Teams notification sent for ticket #15670: "Notification received (Teams integration pending)"
+2025-05-22 15:01:44,132 - INFO - Processed ticket #15670: Assigned to Michael Barbin
+2025-05-22 15:01:44,248 - INFO - Teams notification sent for ticket #15672: "Notification received (Teams integration pending)"
+2025-05-22 15:01:44,248 - INFO - Processed ticket #15672: Assigned to Michael Barbin
+2025-05-22 15:01:44,371 - INFO - Teams notification sent for ticket #15673: "Notification received (Teams integration pending)"
+2025-05-22 15:01:44,371 - INFO - Processed ticket #15673: Assigned to Michael Barbin
+2025-05-22 15:01:44,374 - INFO - Processed ticket #15674: Assigned to Needs human input
+2025-05-22 15:01:44,505 - INFO - Teams notification sent for ticket #15677: "Notification received (Teams integration pending)"
+2025-05-22 15:01:44,506 - INFO - Processed ticket #15677: Assigned to Michael Barbin
+2025-05-22 15:01:44,618 - INFO - Teams notification sent for ticket #15678: "Notification received (Teams integration pending)"
+2025-05-22 15:01:44,618 - INFO - Processed ticket #15678: Assigned to Michael Barbin
+2025-05-22 15:01:44,724 - INFO - Teams notification sent for ticket #15679: "Notification received (Teams integration pending)"
+2025-05-22 15:01:44,724 - INFO - Processed ticket #15679: Assigned to Michael Barbin
+2025-05-22 15:01:44,830 - INFO - Teams notification sent for ticket #15681: "Notification received (Teams integration pending)"
+2025-05-22 15:01:44,830 - INFO - Processed ticket #15681: Assigned to Michael Barbin
+2025-05-22 15:01:44,947 - INFO - Teams notification sent for ticket #15682: "Notification received (Teams integration pending)"
+2025-05-22 15:01:44,947 - INFO - Processed ticket #15682: Assigned to Michael Barbin
+2025-05-22 15:01:45,053 - INFO - Teams notification sent for ticket #15683: "Notification received (Teams integration pending)"
+2025-05-22 15:01:45,054 - INFO - Processed ticket #15683: Assigned to Michael Barbin
+2025-05-22 15:01:45,056 - INFO - Processed ticket #15684: Assigned to Needs human input
+2025-05-22 15:01:45,174 - INFO - Teams notification sent for ticket #15685: "Notification received (Teams integration pending)"
+2025-05-22 15:01:45,174 - INFO - Processed ticket #15685: Assigned to Michael Barbin
+2025-05-22 15:04:13,771 - INFO - Found 33 active tickets
+2025-05-22 15:04:13,950 - INFO - Teams notification sent for ticket #15631: "Notification received (Teams integration pending)"
+2025-05-22 15:04:13,951 - INFO - Processed ticket #15631: Assigned to Michael Barbin
+2025-05-22 15:04:13,951 - INFO - Processed ticket #15633: Assigned to Needs human input
+2025-05-22 15:04:14,081 - INFO - Teams notification sent for ticket #15635: "Notification received (Teams integration pending)"
+2025-05-22 15:04:14,081 - INFO - Processed ticket #15635: Assigned to Michael Barbin
+2025-05-22 15:04:14,179 - INFO - Teams notification sent for ticket #15640: "Notification received (Teams integration pending)"
+2025-05-22 15:04:14,180 - INFO - Processed ticket #15640: Assigned to Michael Barbin
+2025-05-22 15:04:14,303 - INFO - Teams notification sent for ticket #15641: "Notification received (Teams integration pending)"
+2025-05-22 15:04:14,303 - INFO - Processed ticket #15641: Assigned to Michael Barbin
+2025-05-22 15:04:14,410 - INFO - Teams notification sent for ticket #15643: "Notification received (Teams integration pending)"
+2025-05-22 15:04:14,410 - INFO - Processed ticket #15643: Assigned to Michael Barbin
+2025-05-22 15:04:14,411 - INFO - Processed ticket #15644: Assigned to Needs human input
+2025-05-22 15:04:14,513 - INFO - Teams notification sent for ticket #15645: "Notification received (Teams integration pending)"
+2025-05-22 15:04:14,513 - INFO - Processed ticket #15645: Assigned to Michael Barbin
+2025-05-22 15:04:14,632 - INFO - Teams notification sent for ticket #15646: "Notification received (Teams integration pending)"
+2025-05-22 15:04:14,632 - INFO - Processed ticket #15646: Assigned to Michael Barbin
+2025-05-22 15:04:14,751 - INFO - Teams notification sent for ticket #15647: "Notification received (Teams integration pending)"
+2025-05-22 15:04:14,752 - INFO - Processed ticket #15647: Assigned to Michael Barbin
+2025-05-22 15:04:14,877 - INFO - Teams notification sent for ticket #15648: "Notification received (Teams integration pending)"
+2025-05-22 15:04:14,877 - INFO - Processed ticket #15648: Assigned to Michael Barbin
+2025-05-22 15:04:15,003 - INFO - Teams notification sent for ticket #15649: "Notification received (Teams integration pending)"
+2025-05-22 15:04:15,003 - INFO - Processed ticket #15649: Assigned to Michael Barbin
+2025-05-22 15:04:15,134 - INFO - Teams notification sent for ticket #15653: "Notification received (Teams integration pending)"
+2025-05-22 15:04:15,134 - INFO - Processed ticket #15653: Assigned to Michael Barbin
+2025-05-22 15:04:15,252 - INFO - Teams notification sent for ticket #15656: "Notification received (Teams integration pending)"
+2025-05-22 15:04:15,252 - INFO - Processed ticket #15656: Assigned to Michael Barbin
+2025-05-22 15:04:15,376 - INFO - Teams notification sent for ticket #15658: "Notification received (Teams integration pending)"
+2025-05-22 15:04:15,376 - INFO - Processed ticket #15658: Assigned to Michael Barbin
+2025-05-22 15:04:15,492 - INFO - Teams notification sent for ticket #15659: "Notification received (Teams integration pending)"
+2025-05-22 15:04:15,492 - INFO - Processed ticket #15659: Assigned to Michael Barbin
+2025-05-22 15:04:15,493 - INFO - Processed ticket #15661: Assigned to Needs human input
+2025-05-22 15:04:15,494 - INFO - Processed ticket #15663: Assigned to Needs human input
+2025-05-22 15:04:15,604 - INFO - Teams notification sent for ticket #15664: "Notification received (Teams integration pending)"
+2025-05-22 15:04:15,604 - INFO - Processed ticket #15664: Assigned to Michael Barbin
+2025-05-22 15:04:15,719 - INFO - Teams notification sent for ticket #15667: "Notification received (Teams integration pending)"
+2025-05-22 15:04:15,719 - INFO - Processed ticket #15667: Assigned to Michael Barbin
+2025-05-22 15:04:15,843 - INFO - Teams notification sent for ticket #15669: "Notification received (Teams integration pending)"
+2025-05-22 15:04:15,843 - INFO - Processed ticket #15669: Assigned to Michael Barbin
+2025-05-22 15:04:15,994 - INFO - Teams notification sent for ticket #15670: "Notification received (Teams integration pending)"
+2025-05-22 15:04:15,994 - INFO - Processed ticket #15670: Assigned to Michael Barbin
+2025-05-22 15:04:16,153 - INFO - Teams notification sent for ticket #15672: "Notification received (Teams integration pending)"
+2025-05-22 15:04:16,153 - INFO - Processed ticket #15672: Assigned to Michael Barbin
+2025-05-22 15:04:16,272 - INFO - Teams notification sent for ticket #15673: "Notification received (Teams integration pending)"
+2025-05-22 15:04:16,273 - INFO - Processed ticket #15673: Assigned to Michael Barbin
+2025-05-22 15:04:16,274 - INFO - Processed ticket #15674: Assigned to Needs human input
+2025-05-22 15:04:16,406 - INFO - Teams notification sent for ticket #15677: "Notification received (Teams integration pending)"
+2025-05-22 15:04:16,406 - INFO - Processed ticket #15677: Assigned to Michael Barbin
+2025-05-22 15:04:16,516 - INFO - Teams notification sent for ticket #15678: "Notification received (Teams integration pending)"
+2025-05-22 15:04:16,516 - INFO - Processed ticket #15678: Assigned to Michael Barbin
+2025-05-22 15:04:16,645 - INFO - Teams notification sent for ticket #15679: "Notification received (Teams integration pending)"
+2025-05-22 15:04:16,646 - INFO - Processed ticket #15679: Assigned to Michael Barbin
+2025-05-22 15:04:16,784 - INFO - Teams notification sent for ticket #15681: "Notification received (Teams integration pending)"
+2025-05-22 15:04:16,784 - INFO - Processed ticket #15681: Assigned to Michael Barbin
+2025-05-22 15:04:16,909 - INFO - Teams notification sent for ticket #15682: "Notification received (Teams integration pending)"
+2025-05-22 15:04:16,909 - INFO - Processed ticket #15682: Assigned to Michael Barbin
+2025-05-22 15:04:17,047 - INFO - Teams notification sent for ticket #15683: "Notification received (Teams integration pending)"
+2025-05-22 15:04:17,047 - INFO - Processed ticket #15683: Assigned to Michael Barbin
+2025-05-22 15:04:17,049 - INFO - Processed ticket #15684: Assigned to Needs human input
+2025-05-22 15:04:17,157 - INFO - Teams notification sent for ticket #15685: "Notification received (Teams integration pending)"
+2025-05-22 15:04:17,157 - INFO - Processed ticket #15685: Assigned to Michael Barbin
+2025-05-22 15:06:42,360 - INFO - Found 33 active tickets
+2025-05-22 15:06:42,507 - INFO - Teams notification sent for ticket #15631: "Notification received (Teams integration pending)"
+2025-05-22 15:06:42,507 - INFO - Processed ticket #15631: Assigned to Michael Barbin
+2025-05-22 15:06:42,510 - INFO - Processed ticket #15633: Assigned to Needs human input
+2025-05-22 15:06:42,647 - INFO - Teams notification sent for ticket #15635: "Notification received (Teams integration pending)"
+2025-05-22 15:06:42,647 - INFO - Processed ticket #15635: Assigned to Michael Barbin
+2025-05-22 15:06:42,763 - INFO - Teams notification sent for ticket #15640: "Notification received (Teams integration pending)"
+2025-05-22 15:06:42,763 - INFO - Processed ticket #15640: Assigned to Michael Barbin
+2025-05-22 15:06:42,910 - INFO - Teams notification sent for ticket #15641: "Notification received (Teams integration pending)"
+2025-05-22 15:06:42,910 - INFO - Processed ticket #15641: Assigned to Michael Barbin
+2025-05-22 15:06:43,033 - INFO - Teams notification sent for ticket #15643: "Notification received (Teams integration pending)"
+2025-05-22 15:06:43,034 - INFO - Processed ticket #15643: Assigned to Michael Barbin
+2025-05-22 15:06:43,036 - INFO - Processed ticket #15644: Assigned to Needs human input
+2025-05-22 15:06:43,158 - INFO - Teams notification sent for ticket #15645: "Notification received (Teams integration pending)"
+2025-05-22 15:06:43,158 - INFO - Processed ticket #15645: Assigned to Michael Barbin
+2025-05-22 15:06:43,287 - INFO - Teams notification sent for ticket #15646: "Notification received (Teams integration pending)"
+2025-05-22 15:06:43,287 - INFO - Processed ticket #15646: Assigned to Michael Barbin
+2025-05-22 15:06:43,401 - INFO - Teams notification sent for ticket #15647: "Notification received (Teams integration pending)"
+2025-05-22 15:06:43,402 - INFO - Processed ticket #15647: Assigned to Michael Barbin
+2025-05-22 15:06:43,527 - INFO - Teams notification sent for ticket #15648: "Notification received (Teams integration pending)"
+2025-05-22 15:06:43,527 - INFO - Processed ticket #15648: Assigned to Michael Barbin
+2025-05-22 15:06:43,655 - INFO - Teams notification sent for ticket #15649: "Notification received (Teams integration pending)"
+2025-05-22 15:06:43,655 - INFO - Processed ticket #15649: Assigned to Michael Barbin
+2025-05-22 15:06:43,785 - INFO - Teams notification sent for ticket #15653: "Notification received (Teams integration pending)"
+2025-05-22 15:06:43,785 - INFO - Processed ticket #15653: Assigned to Michael Barbin
+2025-05-22 15:06:43,906 - INFO - Teams notification sent for ticket #15656: "Notification received (Teams integration pending)"
+2025-05-22 15:06:43,906 - INFO - Processed ticket #15656: Assigned to Michael Barbin
+2025-05-22 15:06:44,022 - INFO - Teams notification sent for ticket #15658: "Notification received (Teams integration pending)"
+2025-05-22 15:06:44,023 - INFO - Processed ticket #15658: Assigned to Michael Barbin
+2025-05-22 15:06:44,135 - INFO - Teams notification sent for ticket #15659: "Notification received (Teams integration pending)"
+2025-05-22 15:06:44,135 - INFO - Processed ticket #15659: Assigned to Michael Barbin
+2025-05-22 15:06:44,137 - INFO - Processed ticket #15661: Assigned to Needs human input
+2025-05-22 15:06:44,138 - INFO - Processed ticket #15663: Assigned to Needs human input
+2025-05-22 15:06:44,280 - INFO - Teams notification sent for ticket #15664: "Notification received (Teams integration pending)"
+2025-05-22 15:06:44,280 - INFO - Processed ticket #15664: Assigned to Michael Barbin
+2025-05-22 15:06:44,411 - INFO - Teams notification sent for ticket #15667: "Notification received (Teams integration pending)"
+2025-05-22 15:06:44,411 - INFO - Processed ticket #15667: Assigned to Michael Barbin
+2025-05-22 15:06:44,546 - INFO - Teams notification sent for ticket #15669: "Notification received (Teams integration pending)"
+2025-05-22 15:06:44,546 - INFO - Processed ticket #15669: Assigned to Michael Barbin
+2025-05-22 15:06:44,656 - INFO - Teams notification sent for ticket #15670: "Notification received (Teams integration pending)"
+2025-05-22 15:06:44,656 - INFO - Processed ticket #15670: Assigned to Michael Barbin
+2025-05-22 15:06:44,779 - INFO - Teams notification sent for ticket #15672: "Notification received (Teams integration pending)"
+2025-05-22 15:06:44,779 - INFO - Processed ticket #15672: Assigned to Michael Barbin
+2025-05-22 15:06:44,901 - INFO - Teams notification sent for ticket #15673: "Notification received (Teams integration pending)"
+2025-05-22 15:06:44,901 - INFO - Processed ticket #15673: Assigned to Michael Barbin
+2025-05-22 15:06:44,903 - INFO - Processed ticket #15674: Assigned to Needs human input
+2025-05-22 15:06:45,019 - INFO - Teams notification sent for ticket #15677: "Notification received (Teams integration pending)"
+2025-05-22 15:06:45,020 - INFO - Processed ticket #15677: Assigned to Michael Barbin
+2025-05-22 15:06:45,136 - INFO - Teams notification sent for ticket #15678: "Notification received (Teams integration pending)"
+2025-05-22 15:06:45,136 - INFO - Processed ticket #15678: Assigned to Michael Barbin
+2025-05-22 15:06:45,246 - INFO - Teams notification sent for ticket #15679: "Notification received (Teams integration pending)"
+2025-05-22 15:06:45,246 - INFO - Processed ticket #15679: Assigned to Michael Barbin
+2025-05-22 15:06:45,376 - INFO - Teams notification sent for ticket #15681: "Notification received (Teams integration pending)"
+2025-05-22 15:06:45,376 - INFO - Processed ticket #15681: Assigned to Michael Barbin
+2025-05-22 15:06:45,477 - INFO - Teams notification sent for ticket #15682: "Notification received (Teams integration pending)"
+2025-05-22 15:06:45,477 - INFO - Processed ticket #15682: Assigned to Michael Barbin
+2025-05-22 15:06:45,605 - INFO - Teams notification sent for ticket #15683: "Notification received (Teams integration pending)"
+2025-05-22 15:06:45,605 - INFO - Processed ticket #15683: Assigned to Michael Barbin
+2025-05-22 15:06:45,606 - INFO - Processed ticket #15684: Assigned to Needs human input
+2025-05-22 15:06:45,722 - INFO - Teams notification sent for ticket #15685: "Notification received (Teams integration pending)"
+2025-05-22 15:06:45,722 - INFO - Processed ticket #15685: Assigned to Michael Barbin
+2025-05-22 15:09:19,879 - INFO - Found 32 active tickets
+2025-05-22 15:09:21,329 - INFO - Teams notification sent for ticket #15631: "Notification sent to Teams"
+2025-05-22 15:09:21,330 - INFO - Processed ticket #15631: Assigned to Michael Barbin
+2025-05-22 15:09:21,334 - INFO - Processed ticket #15633: Assigned to Needs human input
+2025-05-22 15:09:22,343 - INFO - Teams notification sent for ticket #15635: "Notification sent to Teams"
+2025-05-22 15:09:22,344 - INFO - Processed ticket #15635: Assigned to Michael Barbin
+2025-05-22 15:09:23,404 - INFO - Teams notification sent for ticket #15640: "Notification sent to Teams"
+2025-05-22 15:09:23,405 - INFO - Processed ticket #15640: Assigned to Michael Barbin
+2025-05-22 15:09:24,500 - INFO - Teams notification sent for ticket #15641: "Notification sent to Teams"
+2025-05-22 15:09:24,501 - INFO - Processed ticket #15641: Assigned to Michael Barbin
+2025-05-22 15:09:25,592 - INFO - Teams notification sent for ticket #15643: "Notification sent to Teams"
+2025-05-22 15:09:25,592 - INFO - Processed ticket #15643: Assigned to Michael Barbin
+2025-05-22 15:09:25,596 - INFO - Processed ticket #15644: Assigned to Needs human input
+2025-05-22 15:09:27,333 - INFO - Teams notification sent for ticket #15645: "Notification sent to Teams"
+2025-05-22 15:09:27,334 - INFO - Processed ticket #15645: Assigned to Michael Barbin
+2025-05-22 15:09:28,368 - INFO - Teams notification sent for ticket #15646: "Notification sent to Teams"
+2025-05-22 15:09:28,368 - INFO - Processed ticket #15646: Assigned to Michael Barbin
+2025-05-22 15:09:29,335 - INFO - Teams notification sent for ticket #15647: "Notification sent to Teams"
+2025-05-22 15:09:29,335 - INFO - Processed ticket #15647: Assigned to Michael Barbin
+2025-05-22 15:09:30,379 - INFO - Teams notification sent for ticket #15648: "Notification sent to Teams"
+2025-05-22 15:09:30,380 - INFO - Processed ticket #15648: Assigned to Michael Barbin
+2025-05-22 15:09:31,385 - INFO - Teams notification sent for ticket #15649: "Notification sent to Teams"
+2025-05-22 15:09:31,385 - INFO - Processed ticket #15649: Assigned to Michael Barbin
+2025-05-22 15:09:32,587 - INFO - Teams notification sent for ticket #15653: "Notification sent to Teams"
+2025-05-22 15:09:32,588 - INFO - Processed ticket #15653: Assigned to Michael Barbin
+2025-05-22 15:09:33,589 - INFO - Teams notification sent for ticket #15656: "Notification sent to Teams"
+2025-05-22 15:09:33,589 - INFO - Processed ticket #15656: Assigned to Michael Barbin
+2025-05-22 15:09:34,592 - INFO - Teams notification sent for ticket #15658: "Notification sent to Teams"
+2025-05-22 15:09:34,594 - INFO - Processed ticket #15658: Assigned to Michael Barbin
+2025-05-22 15:09:35,572 - INFO - Teams notification sent for ticket #15659: "Notification sent to Teams"
+2025-05-22 15:09:35,572 - INFO - Processed ticket #15659: Assigned to Michael Barbin
+2025-05-22 15:09:35,579 - INFO - Processed ticket #15661: Assigned to Needs human input
+2025-05-22 15:09:35,582 - INFO - Processed ticket #15663: Assigned to Needs human input
+2025-05-22 15:09:36,495 - INFO - Teams notification sent for ticket #15664: "Notification sent to Teams"
+2025-05-22 15:09:36,496 - INFO - Processed ticket #15664: Assigned to Michael Barbin
+2025-05-22 15:09:37,534 - INFO - Teams notification sent for ticket #15667: "Notification sent to Teams"
+2025-05-22 15:09:37,534 - INFO - Processed ticket #15667: Assigned to Michael Barbin
+2025-05-22 15:09:38,616 - INFO - Teams notification sent for ticket #15669: "Notification sent to Teams"
+2025-05-22 15:09:38,617 - INFO - Processed ticket #15669: Assigned to Michael Barbin
+2025-05-22 15:09:39,683 - INFO - Teams notification sent for ticket #15670: "Notification sent to Teams"
+2025-05-22 15:09:39,684 - INFO - Processed ticket #15670: Assigned to Michael Barbin
+2025-05-22 15:09:40,638 - INFO - Teams notification sent for ticket #15672: "Notification sent to Teams"
+2025-05-22 15:09:40,639 - INFO - Processed ticket #15672: Assigned to Michael Barbin
+2025-05-22 15:09:41,576 - INFO - Teams notification sent for ticket #15673: "Notification sent to Teams"
+2025-05-22 15:09:41,576 - INFO - Processed ticket #15673: Assigned to Michael Barbin
+2025-05-22 15:09:41,578 - INFO - Processed ticket #15674: Assigned to Needs human input
+2025-05-22 15:09:42,831 - INFO - Teams notification sent for ticket #15677: "Notification sent to Teams"
+2025-05-22 15:09:42,832 - INFO - Processed ticket #15677: Assigned to Michael Barbin
+2025-05-22 15:09:44,074 - INFO - Teams notification sent for ticket #15678: "Notification sent to Teams"
+2025-05-22 15:09:44,075 - INFO - Processed ticket #15678: Assigned to Michael Barbin
+2025-05-22 15:09:45,104 - INFO - Teams notification sent for ticket #15681: "Notification sent to Teams"
+2025-05-22 15:09:45,105 - INFO - Processed ticket #15681: Assigned to Michael Barbin
+2025-05-22 15:09:46,241 - INFO - Teams notification sent for ticket #15682: "Notification sent to Teams"
+2025-05-22 15:09:46,241 - INFO - Processed ticket #15682: Assigned to Michael Barbin
+2025-05-22 15:09:47,376 - INFO - Teams notification sent for ticket #15683: "Notification sent to Teams"
+2025-05-22 15:09:47,376 - INFO - Processed ticket #15683: Assigned to Michael Barbin
+2025-05-22 15:09:47,380 - INFO - Processed ticket #15684: Assigned to Needs human input
+2025-05-22 15:09:48,503 - INFO - Teams notification sent for ticket #15685: "Notification sent to Teams"
+2025-05-22 15:09:48,504 - INFO - Processed ticket #15685: Assigned to Michael Barbin

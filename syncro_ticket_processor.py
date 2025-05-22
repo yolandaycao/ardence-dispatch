@@ -24,8 +24,10 @@ load_dotenv()
 # Configuration
 SYNCRO_API_URL = 'https://cloudavize.syncromsp.com/api/v1'
 SYNCRO_API_KEY = os.getenv('SYNCRO_API_KEY')
+TEAMS_BOT_URL = os.getenv('TEAMS_BOT_URL', 'https://3232-73-92-93-16.ngrok-free.app')
 MAPPING_FILE = 'technician_mapping.json'
 ASSIGNMENT_RESULTS_FILE = 'assignment_results.json'
+LAST_PROCESSED_FILE = 'last_processed.txt'
 
 def load_technician_mapping():
     """Load technician mapping from JSON file."""
@@ -218,6 +220,7 @@ def save_assignment_result(ticket, assignment):
     except Exception as e:
         print(f"Error saving assignment result: {str(e)}")
 
+
 def process_tickets():
     """Main function to process new tickets."""
     try:
@@ -246,6 +249,11 @@ def process_tickets():
                 
                 # Save assignment result
                 save_assignment_result(ticket, assignment)
+                
+                # Send Teams notification
+                if assignment['technician'] != 'Needs human input':
+                    send_teams_notification(ticket, assignment)
+                    
                 logging.info(f"Processed ticket #{ticket.get('number')}: Assigned to {assignment['technician']}")
                     
             except Exception as e:
@@ -253,6 +261,34 @@ def process_tickets():
                 
     except Exception as e:
         logging.error(f"Error in process_tickets: {str(e)}")
+
+def send_teams_notification(ticket, assignment):
+    """Send notification to Teams bot."""
+    try:
+        notification_data = {
+            "ticketId": ticket.get('number', str(ticket.get('id', 'Unknown'))),
+            "assignedTo": assignment['technician'],
+            "summary": ticket.get('subject', 'No subject')
+        }
+        
+        # Add user ID if available
+        if assignment.get('teams_mention'):
+            notification_data["userId"] = assignment['teams_mention']
+        
+        # Send to Teams bot notification endpoint
+        response = requests.post(
+            f"{TEAMS_BOT_URL}/notify",
+            json=notification_data,
+            headers={"Content-Type": "application/json"}
+        )
+        
+        if response.status_code == 200:
+            logging.info(f"Teams notification sent for ticket #{ticket.get('number')}: {response.text}")
+        else:
+            logging.error(f"Failed to send Teams notification: {response.status_code} - {response.text}")
+            
+    except Exception as e:
+        logging.error(f"Error sending Teams notification: {str(e)}")
 
 def main():
     """Main entry point."""

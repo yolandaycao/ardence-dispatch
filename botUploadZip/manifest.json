@@ -11,8 +11,8 @@
         "termsOfUseUrl": "https://ardencetech.com"
     },
     "name": {
-        "short": "Ticket Bot",
-        "full": "Ticket Assignment Bot"
+        "short": "Ardence Dispatcher",
+        "full": "Ardence Ticket Dispatcher"
     },
     "description": {
         "short": "Automatically assigns and notifies about new tickets",
@@ -27,12 +27,10 @@
         { 
             "botId": "5df2c0c3-5b80-410d-8273-77238a2f828f",
             "scopes": [
-                "team",
-                "personal",
-                "groupchat"
+                "team"
             ],
-            "supportsFiles": true,
-            "isNotificationOnly": false,
+            "supportsFiles": false,
+            "isNotificationOnly": true,
             "commandLists": [
                 {
                     "scopes": [
@@ -54,7 +52,7 @@
         "messageTeamMembers"
     ],
     "validDomains": [
-        "582d-73-92-93-16.ngrok-free.app",
+        "3232-73-92-93-16.ngrok-free.app",
         "token.botframework.com",
         "*.botframework.com"
     ]

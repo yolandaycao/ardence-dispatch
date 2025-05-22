@@ -1,4 +1,8 @@
 import * as restify from 'restify';
+import * as dotenv from 'dotenv';
+
+// Load environment variables from .env file
+dotenv.config();
 
 // Import required bot services.
 // See https://aka.ms/bot-services to learn more about the different parts of a bot.
@@ -20,10 +24,8 @@ server.listen(process.env.port || process.env.PORT || 3978, () => {
 });
 
 const credentialsFactory = new ConfigurationServiceClientCredentialFactory({
-    MicrosoftAppId: process.env.MicrosoftAppId,
-    MicrosoftAppPassword: process.env.MicrosoftAppPassword,
-    MicrosoftAppType: process.env.MicrosoftAppType,
-    MicrosoftAppTenantId: process.env.MicrosoftAppTenantId
+    MicrosoftAppId: process.env.TEAMS_BOT_APP_ID,
+    MicrosoftAppPassword: process.env.TEAMS_BOT_APP_PASSWORD,
 });
 
 const botFrameworkAuthentication = createBotFrameworkAuthenticationFromConfiguration(null, credentialsFactory);
@@ -60,3 +62,126 @@ server.post('/api/messages', async (req, res) => {
     // Route received a request to adapter for processing
     await adapter.process(req, res, (context) => myBot.run(context));
 });
+
+// Teams notification endpoint with Adaptive Cards
+server.post('/notify', async (req, res) => {
+    try {
+        const { ticketId, assignedTo, summary, userId } = req.body;
+        
+        // Log the notification details
+        console.log('Notification received:', {
+            ticketId,
+            assignedTo,
+            summary,
+            userId
+        });
+        
+        // Get the Teams channel ID from environment variables
+        const channelId = process.env.TEAMS_CHANNEL_ID;
+        if (!channelId) {
+            console.error('TEAMS_CHANNEL_ID not configured in environment variables');
+            return res.send(500, 'Teams channel ID not configured');
+        }
+        
+        try {
+            // Create an Adaptive Card for better formatting
+            const cardJson = {
+                "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+                "type": "AdaptiveCard",
+                "version": "1.2",
+                "body": [
+                    {
+                        "type": "TextBlock",
+                        "size": "Medium",
+                        "weight": "Bolder",
+                        "text": "🎫 New Ticket Assigned"
+                    },
+                    {
+                        "type": "FactSet",
+                        "facts": [
+                            {
+                                "title": "Ticket ID:",
+                                "value": ticketId
+                            },
+                            {
+                                "title": "Assigned To:",
+                                "value": assignedTo
+                            },
+                            {
+                                "title": "Summary:",
+                                "value": summary
+                            }
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "type": "Action.OpenUrl",
+                        "title": "View Ticket",
+                        "url": `https://cloudavize.syncromsp.com/tickets/${ticketId}`
+                    }
+                ]
+            };
+            
+            // Create a conversation reference for the Teams channel
+            const reference = {
+                serviceUrl: "https://smba.trafficmanager.net/amer/",
+                channelId: "msteams",
+                conversation: {
+                    id: channelId,
+                    isGroup: true,
+                    conversationType: "channel",
+                    name: "Teams Channel"
+                }
+            };
+            
+            // Send the notification to Teams
+            const appId = process.env.TEAMS_BOT_APP_ID;
+            
+            // Create a callback for after the conversation reference is established
+            const logic = async (context) => {
+                // First message with @mention if userId is provided
+                if (userId) {
+                    await context.sendActivity({
+                        type: "message",
+                        text: `<at>${assignedTo}</at> - You have a new ticket assignment:`,
+                        entities: [{
+                            type: "mention",
+                            mentioned: {
+                                id: userId,
+                                name: assignedTo
+                            },
+                            text: `<at>${assignedTo}</at>`
+                        }]
+                    });
+                }
+                
+                // Then send the adaptive card
+                await context.sendActivity({
+                    type: "message",
+                    attachments: [{
+                        contentType: "application/vnd.microsoft.card.adaptive",
+                        content: cardJson
+                    }]
+                });
+            };
+            
+            // Send the notification to Teams
+            await adapter.continueConversationAsync(
+                appId,
+                reference,
+                logic
+            );
+            
+            res.send(200, 'Notification sent to Teams');
+        } catch (teamsError) {
+            console.error('Error sending to Teams:', teamsError);
+            res.send(200, 'Notification received but Teams delivery failed');
+        }
+    } catch (error) {
+        console.error('Error processing notification:', error);
+        res.send(500, 'Failed to process notification');
+    }
+});
+
+
