@@ -342,15 +342,12 @@ def process_tickets():
                 
                 # Send Teams notification
                 logging.info(f"TEST_MODE is {TEST_MODE}")
-                if assignment['technician'] != 'Needs human input':
-                    logging.info(f"Valid technician assigned: {assignment['technician']}")
-                    if not TEST_MODE:
-                        logging.info(f"Sending Teams notification for ticket #{ticket.get('number')} to {assignment['technician']}")
-                        send_teams_notification(ticket, assignment)
-                    else:
-                        logging.info(f"TEST MODE: Would send notification for ticket #{ticket.get('number')} to {assignment['technician']}")
+                # Always send notification, even for 'Needs human input'
+                if not TEST_MODE:
+                    logging.info(f"Sending Teams notification for ticket #{ticket.get('number')} to {assignment['technician']}")
+                    send_teams_notification(ticket, assignment)
                 else:
-                    logging.info("No valid technician assigned, skipping notification")
+                    logging.info(f"TEST MODE: Would send notification for ticket #{ticket.get('number')} to {assignment['technician']}")
                 
                 # Mark ticket as processed
                 processed_tickets.add(str(ticket.get('id')))

@@ -1,8 +1,13 @@
 import * as restify from 'restify';
 import * as dotenv from 'dotenv';
+import * as fs from 'fs';
+import { userMappings } from './userMappings';
 
 // Load environment variables from .env file
 dotenv.config();
+
+// Load technician mapping
+const technicianMapping = JSON.parse(fs.readFileSync('../technician_mapping.json', 'utf8'));
 
 // Import required bot services.
 // See https://aka.ms/bot-services to learn more about the different parts of a bot.
@@ -96,7 +101,7 @@ server.post('/notify', async (req, res) => {
                     },
                     {
                         "type": "TextBlock",
-                        "text": `New ticket #${ticketId} has been assigned to ${assignedTo}.`,
+                        "text": `Ticket #${ticketId} details:`,
                         "wrap": true
                     },
                     {
@@ -132,13 +137,33 @@ server.post('/notify', async (req, res) => {
             // Create a callback for after the conversation reference is established
             const logic = async (context) => {
                 // Send the adaptive card
-                await context.sendActivity({
+                // If assigned to 'Needs human input', notify Yolanda
+                const effectiveAssignee = assignedTo === 'Needs human input' ? 'Yolanda Cao' : assignedTo;
+                const teamsUserId = userMappings[effectiveAssignee];
+                const notificationText = assignedTo === 'Needs human input' 
+                    ? `<at>${effectiveAssignee}</at>, a ticket needs human review and assignment.`
+                    : `<at>${effectiveAssignee}</at>, you have been assigned a new ticket.`;
+                
+                // Create the activity with proper mention format
+                const activity = {
                     type: "message",
+                    textFormat: "xml",
+                    text: notificationText,
                     attachments: [{
                         contentType: "application/vnd.microsoft.card.adaptive",
                         content: cardJson
+                    }],
+                    entities: [{
+                        type: "mention",
+                        text: `<at>${effectiveAssignee}</at>`,
+                        mentioned: {
+                            id: teamsUserId,
+                            name: effectiveAssignee
+                        }
                     }]
-                });
+                };
+                
+                await context.sendActivity(activity);
             };
             
             // Send the notification to Teams
